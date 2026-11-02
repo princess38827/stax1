@@ -1094,7 +1094,7 @@ test.suite(import.meta.url.replace(/^.*?\/(?<name>[^/]*)$/u, "$<name>"), () => {
   });
 
   test("validateJsonUsingConfigSchemaStrict", async(t) => {
-    t.plan(236);
+    t.plan(260);
     // @ts-ignore
     const ajv = new Ajv(ajvOptions);
     const validateSchemaStrict = ajv.compile(configSchemaStrict);
@@ -1106,6 +1106,8 @@ test.suite(import.meta.url.replace(/^.*?\/(?<name>[^/]*)$/u, "$<name>"), () => {
       "test/inline-configure-file-violations.md",
       "test/invalid-ul-style-style.md",
       "test/long-lines-negative-line-length.md",
+      "test/no-multiple-blanks-maximum-0.md",
+      "test/required-headings-regexp-invalid.md",
       "test/wrong-types-in-config-file.md"
     ]);
     const files = await globby([
@@ -1568,7 +1570,7 @@ test.suite(import.meta.url.replace(/^.*?\/(?<name>[^/]*)$/u, "$<name>"), () => {
         ].join("\n")
       },
       "configParsers": [
-        require("toml").parse
+        require("smol-toml").parse
       ]
     };
     const actual = await lintPromise(options);

@@ -1,6 +1,6 @@
 # markdownlint
 
-> A Node.js style checker and lint tool for Markdown/CommonMark files.
+> A Node.js style checker and lint tool for Markdown/CommonMark files
 
 [![npm version][npm-image]][npm-url]
 [![License][license-image]][license-url]
@@ -574,7 +574,7 @@ ones.
 For example:
 
 ```javascript
-[ JSON.parse, require("toml").parse, require("js-yaml").load ]
+[ JSON.parse, require("smol-toml").parse, require("js-yaml").load ]
 ```
 
 ##### options.customRules
@@ -830,7 +830,7 @@ parsers should come before flexible parsers.
 For example:
 
 ```javascript
-[ JSON.parse, require("toml").parse, require("js-yaml").load ]
+[ JSON.parse, require("smol-toml").parse, require("js-yaml").load ]
 ```
 
 #### fs
@@ -970,7 +970,7 @@ All of which return an object like:
     { "lineNumber": 3,
       "ruleNames": [ "MD010", "no-hard-tabs" ],
       "ruleDescription": "Hard tabs",
-      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md010.md",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.42.0/doc/md010.md",
       "errorDetail": "Column: 17",
       "errorContext": null,
       "errorRange": [ 17, 1 ],
@@ -979,7 +979,7 @@ All of which return an object like:
     { "lineNumber": 1,
       "ruleNames": [ "MD018", "no-missing-space-atx" ],
       "ruleDescription": "No space after hash on atx style heading",
-      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md018.md",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.42.0/doc/md018.md",
       "errorDetail": null,
       "errorContext": "#bad.md",
       "errorRange": [ 1, 2 ],
@@ -988,7 +988,7 @@ All of which return an object like:
     { "lineNumber": 3,
       "ruleNames": [ "MD018", "no-missing-space-atx" ],
       "ruleDescription": "No space after hash on atx style heading",
-      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md018.md",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.42.0/doc/md018.md",
       "errorDetail": null,
       "errorContext": "#This file fails\tsome rules.",
       "errorRange": [ 1, 2 ],
@@ -997,7 +997,7 @@ All of which return an object like:
     { "lineNumber": 1,
       "ruleNames": [ "MD041", "first-line-heading", "first-line-h1" ],
       "ruleDescription": "First line in a file should be a top-level heading",
-      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md041.md",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.42.0/doc/md041.md",
       "errorDetail": null,
       "errorContext": "#bad.md",
       "errorRange": null,

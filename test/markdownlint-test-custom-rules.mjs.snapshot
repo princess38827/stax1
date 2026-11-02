@@ -1,50 +1,595 @@
+exports[`markdownlint-test-custom-rules.mjs > customRulesCapitalizeFrontMatterTitle 1`] = `
+[
+  [
+    "test/blanks-around-headings-one-yaml-false.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          37
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 37,
+          "insertText": "BLANKS AROUND HEADINGS ONE YAML FALSE"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/blanks-around-headings-one-yaml-true.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          36
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 36,
+          "insertText": "BLANKS AROUND HEADINGS ONE YAML TRUE"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/blanks-around-headings-one-yaml.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          31
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 31,
+          "insertText": "BLANKS AROUND HEADINGS ONE YAML"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/blanks-around-headings-two-yaml-true.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          36
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 36,
+          "insertText": "BLANKS AROUND HEADINGS TWO YAML TRUE"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/blanks-around-headings-zero-yaml-false.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          38
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 38,
+          "insertText": "BLANKS AROUND HEADINGS ZERO YAML FALSE"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/blanks-around-headings-zero-yaml-true.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          37
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 37,
+          "insertText": "BLANKS AROUND HEADINGS ZERO YAML TRUE"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/blanks-around-headings-zero-yaml.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          32
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 32,
+          "insertText": "BLANKS AROUND HEADINGS ZERO YAML"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-empty-title-no-h1.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          21
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 21,
+          "insertText": "\\"WELCOME TO JEKYLL!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-h1.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          21
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 21,
+          "insertText": "\\"WELCOME TO JEKYLL!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-h2.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          21
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 21,
+          "insertText": "\\"WELCOME TO JEKYLL!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-no-h1.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          21
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 21,
+          "insertText": "\\"WELCOME TO JEKYLL!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-pandoc-spaces.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          20
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 20,
+          "insertText": "\\"WELCOME TO PANDOC!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-pandoc.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          20
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 20,
+          "insertText": "\\"WELCOME TO PANDOC!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-spaces.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          21
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 21,
+          "insertText": "\\"WELCOME TO JEKYLL!\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-with-dashes.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          14
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 14,
+          "insertText": "TITLE WITH ---"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/heading_increment-title_level2_good.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          35
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 35,
+          "insertText": "HEADING_INCREMENT-TITLE_LEVEL2_GOOD"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/heading_increment-title_level3_bad.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          34
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 34,
+          "insertText": "HEADING_INCREMENT-TITLE_LEVEL3_BAD"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/jekyll_post_2.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          12
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 12,
+          "insertText": "HELLO WORLD!"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/jekyll_post.md",
+    [
+      {
+        "lineNumber": 3,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          12
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 12,
+          "insertText": "HELLO WORLD!"
+        },
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/md041-yaml-title-and-first-line-heading.md",
+    [
+      {
+        "lineNumber": 4,
+        "ruleNames": [
+          "capitalize-front-matter-title"
+        ],
+        "ruleDescription": "Rule that capitalizes the title property in YAML front matter",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": [
+          8,
+          21
+        ],
+        "fixInfo": {
+          "editColumn": 8,
+          "deleteCount": 21,
+          "insertText": "\\"FIRST LEVEL HEADING\\""
+        },
+        "severity": "error"
+      }
+    ]
+  ]
+]
+`;
+
+exports[`markdownlint-test-custom-rules.mjs > customRulesFrontMatterIssuesAndFixes 1`] = `
+{
+  "results": {
+    "content": [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "rule"
+        ],
+        "ruleDescription": "description",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": null,
+        "fixInfo": {
+          "editColumn": 2,
+          "deleteCount": 2,
+          "insertText": "am"
+        },
+        "severity": "error"
+      },
+      {
+        "lineNumber": 4,
+        "ruleNames": [
+          "rule"
+        ],
+        "ruleDescription": "description",
+        "ruleInformation": null,
+        "errorDetail": null,
+        "errorContext": null,
+        "errorRange": null,
+        "fixInfo": {
+          "editColumn": 5,
+          "deleteCount": 2,
+          "insertText": "AD"
+        },
+        "severity": "error"
+      }
+    ]
+  },
+  "fixed": "---\\nYamL\\n---\\n# HeADing\\n"
+}
+`;
+
 exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapshot 1`] = `
 [
   {
-    "type": "heading_open",
-    "tag": "h1",
-    "attrs": null,
     "map": [
       0,
       2
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "=",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "Every Markdown Syntax",
     "lineNumber": 1
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       0,
       1
     ],
-    "nesting": 0,
     "level": 1,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Every Markdown Syntax",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 1,
         "line": "Every Markdown Syntax"
       }
@@ -52,72 +597,72 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Every Markdown Syntax",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "Every Markdown Syntax",
     "lineNumber": 1
   },
   {
-    "type": "heading_close",
-    "tag": "h1",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "=",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "heading_open",
-    "tag": "h2",
-    "attrs": null,
     "map": [
       3,
       4
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "##",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "heading_open",
+    "tag": "h2",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "## Level 2 ATX Heading",
     "lineNumber": 4
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       3,
       4
     ],
-    "nesting": 0,
     "level": 1,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Level 2 ATX Heading",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 4,
         "line": "## Level 2 ATX Heading"
       }
@@ -125,72 +670,72 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Level 2 ATX Heading",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "## Level 2 ATX Heading",
     "lineNumber": 4
   },
   {
-    "type": "heading_close",
-    "tag": "h2",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "##",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "heading_close",
+    "tag": "h2",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "heading_open",
-    "tag": "h3",
-    "attrs": null,
     "map": [
       5,
       6
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "###",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "heading_open",
+    "tag": "h3",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "### Level 3 Closed ATX Heading ###",
     "lineNumber": 6
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       5,
       6
     ],
-    "nesting": 0,
     "level": 1,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Level 3 Closed ATX Heading",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 6,
         "line": "### Level 3 Closed ATX Heading ###"
       }
@@ -198,504 +743,512 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Level 3 Closed ATX Heading",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "### Level 3 Closed ATX Heading ###",
     "lineNumber": 6
   },
   {
-    "type": "heading_close",
-    "tag": "h3",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "###",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "heading_close",
+    "tag": "h3",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "hr",
-    "tag": "hr",
-    "attrs": null,
     "map": [
       7,
       8
     ],
-    "nesting": 0,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "---",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "hr",
+    "tag": "hr",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "---",
     "lineNumber": 8
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       9,
       13
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "Text *emphasized* **strong** ___emphasized+strong___.",
     "lineNumber": 10
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       9,
       13
     ],
-    "nesting": 0,
     "level": 1,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Text ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "em_open",
-        "tag": "em",
-        "attrs": null,
         "map": null,
-        "nesting": 1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "*",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "em_open",
+        "tag": "em",
+        "attrs": null,
+        "nesting": 1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "emphasized",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "em_close",
-        "tag": "em",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "*",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "em_close",
+        "tag": "em",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": " ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "strong_open",
-        "tag": "strong",
-        "attrs": null,
         "map": null,
-        "nesting": 1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "**",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "strong_open",
+        "tag": "strong",
+        "attrs": null,
+        "nesting": 1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "strong",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "strong_close",
-        "tag": "strong",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "**",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "strong_close",
+        "tag": "strong",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": " ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "em_open",
-        "tag": "em",
-        "attrs": null,
         "map": null,
-        "nesting": 1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "_",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "em_open",
+        "tag": "em",
+        "attrs": null,
+        "nesting": 1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "strong_open",
-        "tag": "strong",
-        "attrs": null,
         "map": null,
-        "nesting": 1,
         "level": 1,
         "children": null,
         "content": "",
         "markup": "__",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "strong_open",
+        "tag": "strong",
+        "attrs": null,
+        "nesting": 1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 2,
         "children": null,
         "content": "emphasized+strong",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "strong_close",
-        "tag": "strong",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 1,
         "children": null,
         "content": "",
         "markup": "__",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "strong_close",
+        "tag": "strong",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "em_close",
-        "tag": "em",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "_",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "em_close",
+        "tag": "em",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": ".",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "softbreak",
-        "tag": "br",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 10,
         "line": "Text *emphasized* **strong** ___emphasized+strong___."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Text ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "code_inline",
-        "tag": "code",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "code",
         "markup": "\`",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "code_inline",
+        "tag": "code",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": " ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "html_inline",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "<strike>",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "html_inline",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "html",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "html_inline",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "</strike>",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "html_inline",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": " ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
+        "map": null,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "autolink",
+        "info": "auto",
+        "block": false,
+        "hidden": false,
         "type": "link_open",
         "tag": "a",
         "attrs": [
@@ -704,105 +1257,105 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
             "https://example.com/page"
           ]
         ],
-        "map": null,
         "nesting": 1,
-        "level": 0,
-        "children": null,
-        "content": "",
-        "markup": "autolink",
-        "info": "auto",
         "meta": null,
-        "block": false,
-        "hidden": false,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "https://example.com/page",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "link_close",
-        "tag": "a",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "autolink",
         "info": "auto",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "link_close",
+        "tag": "a",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": ".",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "softbreak",
-        "tag": "br",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 11,
         "line": "Text \`code\` <strike>html</strike> <https://example.com/page>."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Text ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
+        "map": null,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "block": false,
+        "hidden": false,
         "type": "link_open",
         "tag": "a",
         "attrs": [
@@ -811,148 +1364,71 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
             "https://example.com/page"
           ]
         ],
-        "map": null,
         "nesting": 1,
-        "level": 0,
-        "children": null,
-        "content": "",
-        "markup": "",
-        "info": "",
         "meta": null,
-        "block": false,
-        "hidden": false,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "link",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "link_close",
-        "tag": "a",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "link_close",
+        "tag": "a",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": " ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "link_open",
-        "tag": "a",
-        "attrs": [
-          [
-            "href",
-            "https://example.com/page"
-          ],
-          [
-            "title",
-            "Title"
-          ]
-        ],
         "map": null,
-        "nesting": 1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
-        "lineNumber": 12,
-        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
-      },
-      {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
-        "map": null,
-        "nesting": 0,
-        "level": 1,
-        "children": null,
-        "content": "link",
-        "markup": "",
-        "info": "",
-        "meta": null,
-        "block": false,
-        "hidden": false,
-        "lineNumber": 12,
-        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
-      },
-      {
-        "type": "link_close",
-        "tag": "a",
-        "attrs": null,
-        "map": null,
-        "nesting": -1,
-        "level": 0,
-        "children": null,
-        "content": "",
-        "markup": "",
-        "info": "",
-        "meta": null,
-        "block": false,
-        "hidden": false,
-        "lineNumber": 12,
-        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
-      },
-      {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
-        "map": null,
-        "nesting": 0,
-        "level": 0,
-        "children": null,
-        "content": " ",
-        "markup": "",
-        "info": "",
-        "meta": null,
-        "block": false,
-        "hidden": false,
-        "lineNumber": 12,
-        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
-      },
-      {
         "type": "link_open",
         "tag": "a",
         "attrs": [
@@ -965,71 +1441,168 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
             "Title"
           ]
         ],
-        "map": null,
         "nesting": 1,
-        "level": 0,
-        "children": null,
-        "content": "",
-        "markup": "",
-        "info": "",
-        "meta": null,
-        "block": false,
-        "hidden": false,
+        "meta": {
+          "label": "LINK"
+        },
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 1,
         "children": null,
         "content": "link",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "link_close",
-        "tag": "a",
-        "attrs": null,
         "map": null,
-        "nesting": -1,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "link_close",
+        "tag": "a",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": " ",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
+        "map": null,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "block": false,
+        "hidden": false,
+        "type": "link_open",
+        "tag": "a",
+        "attrs": [
+          [
+            "href",
+            "https://example.com/page"
+          ],
+          [
+            "title",
+            "Title"
+          ]
+        ],
+        "nesting": 1,
+        "meta": {
+          "label": "LINK"
+        },
+        "lineNumber": 12,
+        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
+      },
+      {
+        "map": null,
+        "level": 1,
+        "children": null,
+        "content": "link",
+        "markup": "",
+        "info": "",
+        "block": false,
+        "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
+        "lineNumber": 12,
+        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
+      },
+      {
+        "map": null,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "block": false,
+        "hidden": false,
+        "type": "link_close",
+        "tag": "a",
+        "attrs": null,
+        "nesting": -1,
+        "meta": null,
+        "lineNumber": 12,
+        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
+      },
+      {
+        "map": null,
+        "level": 0,
+        "children": null,
+        "content": " ",
+        "markup": "",
+        "info": "",
+        "block": false,
+        "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
+        "lineNumber": 12,
+        "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
+      },
+      {
+        "map": null,
+        "level": 0,
+        "children": [
+          {
+            "map": null,
+            "level": 0,
+            "children": null,
+            "content": "image",
+            "markup": "",
+            "info": "",
+            "block": false,
+            "hidden": false,
+            "type": "text",
+            "tag": "",
+            "attrs": null,
+            "nesting": 0,
+            "meta": null
+          }
+        ],
+        "content": "image",
+        "markup": "",
+        "info": "",
+        "block": false,
+        "hidden": false,
         "type": "image",
         "tag": "img",
         "attrs": [
@@ -1046,83 +1619,61 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
             "Title"
           ]
         ],
-        "map": null,
         "nesting": 0,
-        "level": 0,
-        "children": [
-          {
-            "type": "text",
-            "tag": "",
-            "attrs": null,
-            "map": null,
-            "nesting": 0,
-            "level": 0,
-            "children": null,
-            "content": "image",
-            "markup": "",
-            "info": "",
-            "meta": null,
-            "block": false,
-            "hidden": false
-          }
-        ],
-        "content": "image",
-        "markup": "",
-        "info": "",
-        "meta": null,
-        "block": false,
-        "hidden": false,
+        "meta": {
+          "label": "LINK"
+        },
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": ".",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "softbreak",
-        "tag": "br",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 12,
         "line": "Text [link](https://example.com/page) [link][] [link] ![image][link]."
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Text https://example.com/page.",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 13,
         "line": "Text https://example.com/page."
       }
@@ -1130,106 +1681,106 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Text *emphasized* **strong** ___emphasized+strong___.\\nText \`code\` <strike>html</strike> <https://example.com/page>.\\nText [link](https://example.com/page) [link][] [link] ![image][link].\\nText https://example.com/page.",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "Text *emphasized* **strong** ___emphasized+strong___.",
     "lineNumber": 10
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
-    "type": "paragraph_open",
+    "hidden": false,
+    "type": "paragraph_close",
     "tag": "p",
     "attrs": null,
+    "nesting": -1,
+    "meta": null
+  },
+  {
     "map": [
       14,
       16
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "Hard  ",
     "lineNumber": 15
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       14,
       16
     ],
-    "nesting": 0,
     "level": 1,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Hard",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 15,
         "line": "Hard  "
       },
       {
-        "type": "hardbreak",
-        "tag": "br",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "hardbreak",
+        "tag": "br",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 15,
         "line": "Hard  "
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "line break",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 16,
         "line": "line break"
       }
@@ -1237,92 +1788,92 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Hard  \\nline break",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "Hard  ",
     "lineNumber": 15
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "blockquote_open",
-    "tag": "blockquote",
-    "attrs": null,
     "map": [
       19,
       21
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": ">",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "blockquote_open",
+    "tag": "blockquote",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "> Block quote",
     "lineNumber": 20
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       19,
       20
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "> Block quote",
     "lineNumber": 20
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       19,
       20
     ],
-    "nesting": 0,
     "level": 2,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Block quote",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 20,
         "line": "> Block quote"
       }
@@ -1330,92 +1881,92 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Block quote",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "> Block quote",
     "lineNumber": 20
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "blockquote_open",
-    "tag": "blockquote",
-    "attrs": null,
     "map": [
       20,
       21
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": ">",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "blockquote_open",
+    "tag": "blockquote",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "> > Nested",
     "lineNumber": 21
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       20,
       21
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "> > Nested",
     "lineNumber": 21
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       20,
       21
     ],
-    "nesting": 0,
     "level": 3,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Nested",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 21,
         "line": "> > Nested"
       }
@@ -1423,142 +1974,142 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Nested",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "> > Nested",
     "lineNumber": 21
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "blockquote_close",
-    "tag": "blockquote",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": ">",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
+    "hidden": false,
     "type": "blockquote_close",
     "tag": "blockquote",
     "attrs": null,
-    "map": null,
     "nesting": -1,
+    "meta": null
+  },
+  {
+    "map": null,
     "level": 0,
     "children": null,
     "content": "",
     "markup": ">",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "blockquote_close",
+    "tag": "blockquote",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "bullet_list_open",
-    "tag": "ul",
-    "attrs": null,
     "map": [
       22,
       28
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "bullet_list_open",
+    "tag": "ul",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "- Unordered",
     "lineNumber": 23
   },
   {
-    "type": "list_item_open",
-    "tag": "li",
-    "attrs": null,
     "map": [
       22,
       23
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "- Unordered",
     "lineNumber": 23
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       22,
       23
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": true,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "- Unordered",
     "lineNumber": 23
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       22,
       23
     ],
-    "nesting": 0,
     "level": 3,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Unordered",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 23,
         "line": "- Unordered"
       }
@@ -1566,107 +2117,107 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Unordered",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "- Unordered",
     "lineNumber": 23
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": true
+    "hidden": true,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "list_item_close",
-    "tag": "li",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
-    "type": "list_item_open",
+    "hidden": false,
+    "type": "list_item_close",
     "tag": "li",
     "attrs": null,
+    "nesting": -1,
+    "meta": null
+  },
+  {
     "map": [
       23,
       28
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "- List",
     "lineNumber": 24
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       23,
       24
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": true,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "- List",
     "lineNumber": 24
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       23,
       24
     ],
-    "nesting": 0,
     "level": 3,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "List",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 24,
         "line": "- List"
       }
@@ -1674,146 +2225,146 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "List",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "- List",
     "lineNumber": 24
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": true
+    "hidden": true,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "bullet_list_open",
-    "tag": "ul",
-    "attrs": null,
     "map": [
       24,
       28
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "bullet_list_open",
+    "tag": "ul",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "  - Items",
     "lineNumber": 25
   },
   {
-    "type": "list_item_open",
-    "tag": "li",
-    "attrs": null,
     "map": [
       24,
       28
     ],
-    "nesting": 1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "  - Items",
     "lineNumber": 25
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       24,
       26
     ],
-    "nesting": 1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "  - Items",
     "lineNumber": 25
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       24,
       26
     ],
-    "nesting": 0,
     "level": 5,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Items",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 25,
         "line": "  - Items"
       },
       {
-        "type": "softbreak",
-        "tag": "br",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 25,
         "line": "  - Items"
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Indented",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 26,
         "line": "    Indented"
       }
@@ -1821,72 +2372,72 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Items\\nIndented",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "  - Items",
     "lineNumber": 25
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
-    "type": "paragraph_open",
+    "hidden": false,
+    "type": "paragraph_close",
     "tag": "p",
     "attrs": null,
+    "nesting": -1,
+    "meta": null
+  },
+  {
     "map": [
       27,
       28
     ],
-    "nesting": 1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "    Content",
     "lineNumber": 28
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       27,
       28
     ],
-    "nesting": 0,
     "level": 5,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Content",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 28,
         "line": "    Content"
       }
@@ -1894,172 +2445,172 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Content",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "    Content",
     "lineNumber": 28
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "list_item_close",
-    "tag": "li",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "bullet_list_close",
-    "tag": "ul",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "bullet_list_close",
+    "tag": "ul",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "list_item_close",
-    "tag": "li",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "bullet_list_close",
-    "tag": "ul",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "-",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "bullet_list_close",
+    "tag": "ul",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "ordered_list_open",
-    "tag": "ol",
-    "attrs": null,
     "map": [
       29,
       35
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "ordered_list_open",
+    "tag": "ol",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "1. Ordered",
     "lineNumber": 30
   },
   {
-    "type": "list_item_open",
-    "tag": "li",
-    "attrs": null,
     "map": [
       29,
       30
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "1",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "1. Ordered",
     "lineNumber": 30
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       29,
       30
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": true,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "1. Ordered",
     "lineNumber": 30
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       29,
       30
     ],
-    "nesting": 0,
     "level": 3,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Ordered",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 30,
         "line": "1. Ordered"
       }
@@ -2067,107 +2618,107 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Ordered",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "1. Ordered",
     "lineNumber": 30
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": true
+    "hidden": true,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "list_item_close",
-    "tag": "li",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
-    "type": "list_item_open",
+    "hidden": false,
+    "type": "list_item_close",
     "tag": "li",
     "attrs": null,
+    "nesting": -1,
+    "meta": null
+  },
+  {
     "map": [
       30,
       35
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "2",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "2. List",
     "lineNumber": 31
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       30,
       31
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": true,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "2. List",
     "lineNumber": 31
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       30,
       31
     ],
-    "nesting": 0,
     "level": 3,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "List",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 31,
         "line": "2. List"
       }
@@ -2175,146 +2726,146 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "List",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "2. List",
     "lineNumber": 31
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": true
+    "hidden": true,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "ordered_list_open",
-    "tag": "ol",
-    "attrs": null,
     "map": [
       31,
       35
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "ordered_list_open",
+    "tag": "ol",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "   1. Items",
     "lineNumber": 32
   },
   {
-    "type": "list_item_open",
-    "tag": "li",
-    "attrs": null,
     "map": [
       31,
       35
     ],
-    "nesting": 1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "1",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "   1. Items",
     "lineNumber": 32
   },
   {
-    "type": "paragraph_open",
-    "tag": "p",
-    "attrs": null,
     "map": [
       31,
       33
     ],
-    "nesting": 1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "   1. Items",
     "lineNumber": 32
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       31,
       33
     ],
-    "nesting": 0,
     "level": 5,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Items",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 32,
         "line": "   1. Items"
       },
       {
-        "type": "softbreak",
-        "tag": "br",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 32,
         "line": "   1. Items"
       },
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Indented",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 33,
         "line": "      Indented"
       }
@@ -2322,72 +2873,72 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Items\\nIndented",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "   1. Items",
     "lineNumber": 32
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
-    "type": "paragraph_open",
+    "hidden": false,
+    "type": "paragraph_close",
     "tag": "p",
     "attrs": null,
+    "nesting": -1,
+    "meta": null
+  },
+  {
     "map": [
       34,
       35
     ],
-    "nesting": 1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "      Content",
     "lineNumber": 35
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       34,
       35
     ],
-    "nesting": 0,
     "level": 5,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Content",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 35,
         "line": "      Content"
       }
@@ -2395,252 +2946,252 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Content",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "      Content",
     "lineNumber": 35
   },
   {
-    "type": "paragraph_close",
-    "tag": "p",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 4,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "list_item_close",
-    "tag": "li",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "ordered_list_close",
-    "tag": "ol",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "ordered_list_close",
+    "tag": "ol",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "list_item_close",
-    "tag": "li",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "ordered_list_close",
-    "tag": "ol",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": ".",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "ordered_list_close",
+    "tag": "ol",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "fence",
-    "tag": "code",
-    "attrs": null,
     "map": [
       36,
       39
     ],
-    "nesting": 0,
     "level": 0,
     "children": null,
     "content": "Fenced code block\\n",
     "markup": "\`\`\`",
     "info": "markdown options",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "fence",
+    "tag": "code",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "\`\`\`markdown options",
     "lineNumber": 37
   },
   {
-    "type": "code_block",
-    "tag": "code",
-    "attrs": null,
     "map": [
       40,
       41
     ],
-    "nesting": 0,
     "level": 0,
     "children": null,
     "content": "Indented code block\\n",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "code_block",
+    "tag": "code",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "    Indented code block",
     "lineNumber": 41
   },
   {
-    "type": "html_block",
-    "tag": "",
-    "attrs": null,
     "map": [
       42,
       45
     ],
-    "nesting": 0,
     "level": 0,
     "children": null,
     "content": "<p>\\nHTML block\\n</p>\\n",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "<p>",
     "lineNumber": 43
   },
   {
-    "type": "table_open",
-    "tag": "table",
-    "attrs": null,
     "map": [
       46,
       49
     ],
-    "nesting": 1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "table_open",
+    "tag": "table",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Heading |",
     "lineNumber": 47
   },
   {
-    "type": "thead_open",
-    "tag": "thead",
-    "attrs": null,
     "map": [
       46,
       47
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "thead_open",
+    "tag": "thead",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Heading |",
     "lineNumber": 47
   },
   {
-    "type": "tr_open",
-    "tag": "tr",
-    "attrs": null,
     "map": [
       46,
       47
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "tr_open",
+    "tag": "tr",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Heading |",
     "lineNumber": 47
   },
   {
-    "type": "th_open",
-    "tag": "th",
-    "attrs": null,
     "map": [
       46,
       47
     ],
-    "nesting": 1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "th_open",
+    "tag": "th",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Heading |",
     "lineNumber": 47
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       46,
       47
     ],
-    "nesting": 0,
     "level": 4,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Table",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 47,
         "line": "| Table | Heading |"
       }
@@ -2648,77 +3199,77 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Table",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
-    "line": "| Table | Heading |",
-    "lineNumber": 47
-  },
-  {
-    "type": "th_close",
-    "tag": "th",
-    "attrs": null,
-    "map": [
-      46,
-      47
-    ],
-    "nesting": -1,
-    "level": 3,
-    "children": null,
-    "content": "",
-    "markup": "",
-    "info": "",
-    "meta": null,
-    "block": true,
-    "hidden": false,
-    "line": "| Table | Heading |",
-    "lineNumber": 47
-  },
-  {
-    "type": "th_open",
-    "tag": "th",
-    "attrs": null,
-    "map": [
-      46,
-      47
-    ],
-    "nesting": 1,
-    "level": 3,
-    "children": null,
-    "content": "",
-    "markup": "",
-    "info": "",
-    "meta": null,
-    "block": true,
-    "hidden": false,
-    "line": "| Table | Heading |",
-    "lineNumber": 47
-  },
-  {
     "type": "inline",
     "tag": "",
     "attrs": null,
+    "nesting": 0,
+    "meta": null,
+    "line": "| Table | Heading |",
+    "lineNumber": 47
+  },
+  {
     "map": [
       46,
       47
     ],
-    "nesting": 0,
+    "level": 3,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "block": true,
+    "hidden": false,
+    "type": "th_close",
+    "tag": "th",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null,
+    "line": "| Table | Heading |",
+    "lineNumber": 47
+  },
+  {
+    "map": [
+      46,
+      47
+    ],
+    "level": 3,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "block": true,
+    "hidden": false,
+    "type": "th_open",
+    "tag": "th",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
+    "line": "| Table | Heading |",
+    "lineNumber": 47
+  },
+  {
+    "map": [
+      46,
+      47
+    ],
     "level": 4,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Heading",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 47,
         "line": "| Table | Heading |"
       }
@@ -2726,147 +3277,147 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Heading",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "| Table | Heading |",
     "lineNumber": 47
   },
   {
-    "type": "th_close",
-    "tag": "th",
-    "attrs": null,
     "map": [
       46,
       47
     ],
-    "nesting": -1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "th_close",
+    "tag": "th",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null,
     "line": "| Table | Heading |",
     "lineNumber": 47
   },
   {
+    "map": null,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "block": true,
+    "hidden": false,
     "type": "tr_close",
     "tag": "tr",
     "attrs": null,
-    "map": null,
     "nesting": -1,
-    "level": 2,
+    "meta": null
+  },
+  {
+    "map": null,
+    "level": 1,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
-  },
-  {
+    "hidden": false,
     "type": "thead_close",
     "tag": "thead",
     "attrs": null,
-    "map": null,
     "nesting": -1,
-    "level": 1,
-    "children": null,
-    "content": "",
-    "markup": "",
-    "info": "",
-    "meta": null,
-    "block": true,
-    "hidden": false
+    "meta": null
   },
   {
-    "type": "tbody_open",
-    "tag": "tbody",
-    "attrs": null,
     "map": [
       48,
       49
     ],
-    "nesting": 1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "tbody_open",
+    "tag": "tbody",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Cell    |",
     "lineNumber": 49
   },
   {
-    "type": "tr_open",
-    "tag": "tr",
-    "attrs": null,
     "map": [
       48,
       49
     ],
-    "nesting": 1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "tr_open",
+    "tag": "tr",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Cell    |",
     "lineNumber": 49
   },
   {
-    "type": "td_open",
-    "tag": "td",
-    "attrs": null,
     "map": [
       48,
       49
     ],
-    "nesting": 1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "td_open",
+    "tag": "td",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
     "line": "| Table | Cell    |",
     "lineNumber": 49
   },
   {
-    "type": "inline",
-    "tag": "",
-    "attrs": null,
     "map": [
       48,
       49
     ],
-    "nesting": 0,
     "level": 4,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Table",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 49,
         "line": "| Table | Cell    |"
       }
@@ -2874,77 +3425,77 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Table",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
-    "line": "| Table | Cell    |",
-    "lineNumber": 49
-  },
-  {
-    "type": "td_close",
-    "tag": "td",
-    "attrs": null,
-    "map": [
-      48,
-      49
-    ],
-    "nesting": -1,
-    "level": 3,
-    "children": null,
-    "content": "",
-    "markup": "",
-    "info": "",
-    "meta": null,
-    "block": true,
-    "hidden": false,
-    "line": "| Table | Cell    |",
-    "lineNumber": 49
-  },
-  {
-    "type": "td_open",
-    "tag": "td",
-    "attrs": null,
-    "map": [
-      48,
-      49
-    ],
-    "nesting": 1,
-    "level": 3,
-    "children": null,
-    "content": "",
-    "markup": "",
-    "info": "",
-    "meta": null,
-    "block": true,
-    "hidden": false,
-    "line": "| Table | Cell    |",
-    "lineNumber": 49
-  },
-  {
     "type": "inline",
     "tag": "",
     "attrs": null,
+    "nesting": 0,
+    "meta": null,
+    "line": "| Table | Cell    |",
+    "lineNumber": 49
+  },
+  {
     "map": [
       48,
       49
     ],
-    "nesting": 0,
+    "level": 3,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "block": true,
+    "hidden": false,
+    "type": "td_close",
+    "tag": "td",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null,
+    "line": "| Table | Cell    |",
+    "lineNumber": 49
+  },
+  {
+    "map": [
+      48,
+      49
+    ],
+    "level": 3,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "block": true,
+    "hidden": false,
+    "type": "td_open",
+    "tag": "td",
+    "attrs": null,
+    "nesting": 1,
+    "meta": null,
+    "line": "| Table | Cell    |",
+    "lineNumber": 49
+  },
+  {
+    "map": [
+      48,
+      49
+    ],
     "level": 4,
     "children": [
       {
-        "type": "text",
-        "tag": "",
-        "attrs": null,
         "map": null,
-        "nesting": 0,
         "level": 0,
         "children": null,
         "content": "Cell",
         "markup": "",
         "info": "",
-        "meta": null,
         "block": false,
         "hidden": false,
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "nesting": 0,
+        "meta": null,
         "lineNumber": 49,
         "line": "| Table | Cell    |"
       }
@@ -2952,94 +3503,98 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
     "content": "Cell",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "| Table | Cell    |",
     "lineNumber": 49
   },
   {
-    "type": "td_close",
-    "tag": "td",
-    "attrs": null,
     "map": [
       48,
       49
     ],
-    "nesting": -1,
     "level": 3,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "td_close",
+    "tag": "td",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null,
     "line": "| Table | Cell    |",
     "lineNumber": 49
   },
   {
-    "type": "tr_close",
-    "tag": "tr",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 2,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "tr_close",
+    "tag": "tr",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "tbody_close",
-    "tag": "tbody",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 1,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "tbody_close",
+    "tag": "tbody",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "table_close",
-    "tag": "table",
-    "attrs": null,
     "map": null,
-    "nesting": -1,
     "level": 0,
     "children": null,
     "content": "",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
-    "hidden": false
+    "hidden": false,
+    "type": "table_close",
+    "tag": "table",
+    "attrs": null,
+    "nesting": -1,
+    "meta": null
   },
   {
-    "type": "html_block",
-    "tag": "",
-    "attrs": null,
     "map": [
       50,
       51
     ],
-    "nesting": 0,
     "level": 0,
     "children": null,
     "content": "<!-- markdownlint-disable-file -->\\n",
     "markup": "",
     "info": "",
-    "meta": null,
     "block": true,
     "hidden": false,
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "nesting": 0,
+    "meta": null,
     "line": "<!-- ......................... -->",
     "lineNumber": 51
   }
@@ -3048,4 +3603,51 @@ exports[`markdownlint-test-custom-rules.mjs > customRulesMarkdownItTokensSnapsho
 
 exports[`markdownlint-test-custom-rules.mjs > customRulesMicromarkTokensSnapshot 1`] = `
 "[{\\"type\\":\\"setextHeading\\",\\"startLine\\":1,\\"startColumn\\":1,\\"endLine\\":2,\\"endColumn\\":22,\\"text\\":\\"Every Markdown Syntax\\\\n=====================\\",\\"children\\":[{\\"type\\":\\"setextHeadingText\\",\\"startLine\\":1,\\"startColumn\\":1,\\"endLine\\":1,\\"endColumn\\":22,\\"text\\":\\"Every Markdown Syntax\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":1,\\"startColumn\\":1,\\"endLine\\":1,\\"endColumn\\":22,\\"text\\":\\"Every Markdown Syntax\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":1,\\"startColumn\\":22,\\"endLine\\":2,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.0]\\"},{\\"type\\":\\"setextHeadingLine\\",\\"startLine\\":2,\\"startColumn\\":1,\\"endLine\\":2,\\"endColumn\\":22,\\"text\\":\\"=====================\\",\\"children\\":[{\\"type\\":\\"setextHeadingLineSequence\\",\\"startLine\\":2,\\"startColumn\\":1,\\"endLine\\":2,\\"endColumn\\":22,\\"text\\":\\"=====================\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.0.children.2]\\"}],\\"parent\\":\\"[Circular ~.0]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":2,\\"startColumn\\":22,\\"endLine\\":3,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":3,\\"startColumn\\":1,\\"endLine\\":4,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"atxHeading\\",\\"startLine\\":4,\\"startColumn\\":1,\\"endLine\\":4,\\"endColumn\\":23,\\"text\\":\\"## Level 2 ATX Heading\\",\\"children\\":[{\\"type\\":\\"atxHeadingSequence\\",\\"startLine\\":4,\\"startColumn\\":1,\\"endLine\\":4,\\"endColumn\\":3,\\"text\\":\\"##\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.3]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":4,\\"startColumn\\":3,\\"endLine\\":4,\\"endColumn\\":4,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.3]\\"},{\\"type\\":\\"atxHeadingText\\",\\"startLine\\":4,\\"startColumn\\":4,\\"endLine\\":4,\\"endColumn\\":23,\\"text\\":\\"Level 2 ATX Heading\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":4,\\"startColumn\\":4,\\"endLine\\":4,\\"endColumn\\":23,\\"text\\":\\"Level 2 ATX Heading\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.3.children.2]\\"}],\\"parent\\":\\"[Circular ~.3]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":4,\\"startColumn\\":23,\\"endLine\\":5,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":5,\\"startColumn\\":1,\\"endLine\\":6,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"atxHeading\\",\\"startLine\\":6,\\"startColumn\\":1,\\"endLine\\":6,\\"endColumn\\":35,\\"text\\":\\"### Level 3 Closed ATX Heading ###\\",\\"children\\":[{\\"type\\":\\"atxHeadingSequence\\",\\"startLine\\":6,\\"startColumn\\":1,\\"endLine\\":6,\\"endColumn\\":4,\\"text\\":\\"###\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.6]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":6,\\"startColumn\\":4,\\"endLine\\":6,\\"endColumn\\":5,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.6]\\"},{\\"type\\":\\"atxHeadingText\\",\\"startLine\\":6,\\"startColumn\\":5,\\"endLine\\":6,\\"endColumn\\":31,\\"text\\":\\"Level 3 Closed ATX Heading\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":6,\\"startColumn\\":5,\\"endLine\\":6,\\"endColumn\\":31,\\"text\\":\\"Level 3 Closed ATX Heading\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.6.children.2]\\"}],\\"parent\\":\\"[Circular ~.6]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":6,\\"startColumn\\":31,\\"endLine\\":6,\\"endColumn\\":32,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.6]\\"},{\\"type\\":\\"atxHeadingSequence\\",\\"startLine\\":6,\\"startColumn\\":32,\\"endLine\\":6,\\"endColumn\\":35,\\"text\\":\\"###\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.6]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":6,\\"startColumn\\":35,\\"endLine\\":7,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":7,\\"startColumn\\":1,\\"endLine\\":8,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"thematicBreak\\",\\"startLine\\":8,\\"startColumn\\":1,\\"endLine\\":8,\\"endColumn\\":4,\\"text\\":\\"---\\",\\"children\\":[{\\"type\\":\\"thematicBreakSequence\\",\\"startLine\\":8,\\"startColumn\\":1,\\"endLine\\":8,\\"endColumn\\":4,\\"text\\":\\"---\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.9]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":8,\\"startColumn\\":4,\\"endLine\\":9,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":9,\\"startColumn\\":1,\\"endLine\\":10,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"content\\",\\"startLine\\":10,\\"startColumn\\":1,\\"endLine\\":13,\\"endColumn\\":31,\\"text\\":\\"Text *emphasized* **strong** ___emphasized+strong___.\\\\nText \`code\` <strike>html</strike> <https://example.com/page>.\\\\nText [link](https://example.com/page) [link][] [link] ![image][link].\\\\nText https://example.com/page.\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":10,\\"startColumn\\":1,\\"endLine\\":13,\\"endColumn\\":31,\\"text\\":\\"Text *emphasized* **strong** ___emphasized+strong___.\\\\nText \`code\` <strike>html</strike> <https://example.com/page>.\\\\nText [link](https://example.com/page) [link][] [link] ![image][link].\\\\nText https://example.com/page.\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":1,\\"endLine\\":10,\\"endColumn\\":6,\\"text\\":\\"Text \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"emphasis\\",\\"startLine\\":10,\\"startColumn\\":6,\\"endLine\\":10,\\"endColumn\\":18,\\"text\\":\\"*emphasized*\\",\\"children\\":[{\\"type\\":\\"emphasisSequence\\",\\"startLine\\":10,\\"startColumn\\":6,\\"endLine\\":10,\\"endColumn\\":7,\\"text\\":\\"*\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.1]\\"},{\\"type\\":\\"emphasisText\\",\\"startLine\\":10,\\"startColumn\\":7,\\"endLine\\":10,\\"endColumn\\":17,\\"text\\":\\"emphasized\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":7,\\"endLine\\":10,\\"endColumn\\":17,\\"text\\":\\"emphasized\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.1.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.1]\\"},{\\"type\\":\\"emphasisSequence\\",\\"startLine\\":10,\\"startColumn\\":17,\\"endLine\\":10,\\"endColumn\\":18,\\"text\\":\\"*\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":18,\\"endLine\\":10,\\"endColumn\\":19,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"strong\\",\\"startLine\\":10,\\"startColumn\\":19,\\"endLine\\":10,\\"endColumn\\":29,\\"text\\":\\"**strong**\\",\\"children\\":[{\\"type\\":\\"strongSequence\\",\\"startLine\\":10,\\"startColumn\\":19,\\"endLine\\":10,\\"endColumn\\":21,\\"text\\":\\"**\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.3]\\"},{\\"type\\":\\"strongText\\",\\"startLine\\":10,\\"startColumn\\":21,\\"endLine\\":10,\\"endColumn\\":27,\\"text\\":\\"strong\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":21,\\"endLine\\":10,\\"endColumn\\":27,\\"text\\":\\"strong\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.3.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.3]\\"},{\\"type\\":\\"strongSequence\\",\\"startLine\\":10,\\"startColumn\\":27,\\"endLine\\":10,\\"endColumn\\":29,\\"text\\":\\"**\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.3]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":29,\\"endLine\\":10,\\"endColumn\\":30,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"emphasis\\",\\"startLine\\":10,\\"startColumn\\":30,\\"endLine\\":10,\\"endColumn\\":53,\\"text\\":\\"___emphasized+strong___\\",\\"children\\":[{\\"type\\":\\"emphasisSequence\\",\\"startLine\\":10,\\"startColumn\\":30,\\"endLine\\":10,\\"endColumn\\":31,\\"text\\":\\"_\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.5]\\"},{\\"type\\":\\"emphasisText\\",\\"startLine\\":10,\\"startColumn\\":31,\\"endLine\\":10,\\"endColumn\\":52,\\"text\\":\\"__emphasized+strong__\\",\\"children\\":[{\\"type\\":\\"strong\\",\\"startLine\\":10,\\"startColumn\\":31,\\"endLine\\":10,\\"endColumn\\":52,\\"text\\":\\"__emphasized+strong__\\",\\"children\\":[{\\"type\\":\\"strongSequence\\",\\"startLine\\":10,\\"startColumn\\":31,\\"endLine\\":10,\\"endColumn\\":33,\\"text\\":\\"__\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.5.children.1.children.0]\\"},{\\"type\\":\\"strongText\\",\\"startLine\\":10,\\"startColumn\\":33,\\"endLine\\":10,\\"endColumn\\":50,\\"text\\":\\"emphasized+strong\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":33,\\"endLine\\":10,\\"endColumn\\":50,\\"text\\":\\"emphasized+strong\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.5.children.1.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.5.children.1.children.0]\\"},{\\"type\\":\\"strongSequence\\",\\"startLine\\":10,\\"startColumn\\":50,\\"endLine\\":10,\\"endColumn\\":52,\\"text\\":\\"__\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.5.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.5.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.5]\\"},{\\"type\\":\\"emphasisSequence\\",\\"startLine\\":10,\\"startColumn\\":52,\\"endLine\\":10,\\"endColumn\\":53,\\"text\\":\\"_\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.5]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":10,\\"startColumn\\":53,\\"endLine\\":10,\\"endColumn\\":54,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":10,\\"startColumn\\":54,\\"endLine\\":11,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":11,\\"startColumn\\":1,\\"endLine\\":11,\\"endColumn\\":6,\\"text\\":\\"Text \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"codeText\\",\\"startLine\\":11,\\"startColumn\\":6,\\"endLine\\":11,\\"endColumn\\":12,\\"text\\":\\"\`code\`\\",\\"children\\":[{\\"type\\":\\"codeTextSequence\\",\\"startLine\\":11,\\"startColumn\\":6,\\"endLine\\":11,\\"endColumn\\":7,\\"text\\":\\"\`\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.9]\\"},{\\"type\\":\\"codeTextData\\",\\"startLine\\":11,\\"startColumn\\":7,\\"endLine\\":11,\\"endColumn\\":11,\\"text\\":\\"code\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.9]\\"},{\\"type\\":\\"codeTextSequence\\",\\"startLine\\":11,\\"startColumn\\":11,\\"endLine\\":11,\\"endColumn\\":12,\\"text\\":\\"\`\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.9]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":11,\\"startColumn\\":12,\\"endLine\\":11,\\"endColumn\\":13,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"htmlText\\",\\"startLine\\":11,\\"startColumn\\":13,\\"endLine\\":11,\\"endColumn\\":21,\\"text\\":\\"<strike>\\",\\"children\\":[{\\"type\\":\\"htmlTextData\\",\\"startLine\\":11,\\"startColumn\\":13,\\"endLine\\":11,\\"endColumn\\":21,\\"text\\":\\"<strike>\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.11]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":11,\\"startColumn\\":21,\\"endLine\\":11,\\"endColumn\\":25,\\"text\\":\\"html\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"htmlText\\",\\"startLine\\":11,\\"startColumn\\":25,\\"endLine\\":11,\\"endColumn\\":34,\\"text\\":\\"</strike>\\",\\"children\\":[{\\"type\\":\\"htmlTextData\\",\\"startLine\\":11,\\"startColumn\\":25,\\"endLine\\":11,\\"endColumn\\":34,\\"text\\":\\"</strike>\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.13]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":11,\\"startColumn\\":34,\\"endLine\\":11,\\"endColumn\\":35,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"autolink\\",\\"startLine\\":11,\\"startColumn\\":35,\\"endLine\\":11,\\"endColumn\\":61,\\"text\\":\\"<https://example.com/page>\\",\\"children\\":[{\\"type\\":\\"autolinkMarker\\",\\"startLine\\":11,\\"startColumn\\":35,\\"endLine\\":11,\\"endColumn\\":36,\\"text\\":\\"<\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.15]\\"},{\\"type\\":\\"autolinkProtocol\\",\\"startLine\\":11,\\"startColumn\\":36,\\"endLine\\":11,\\"endColumn\\":60,\\"text\\":\\"https://example.com/page\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.15]\\"},{\\"type\\":\\"autolinkMarker\\",\\"startLine\\":11,\\"startColumn\\":60,\\"endLine\\":11,\\"endColumn\\":61,\\"text\\":\\">\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.15]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":11,\\"startColumn\\":61,\\"endLine\\":11,\\"endColumn\\":62,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":11,\\"startColumn\\":62,\\"endLine\\":12,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":1,\\"endLine\\":12,\\"endColumn\\":6,\\"text\\":\\"Text \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"link\\",\\"startLine\\":12,\\"startColumn\\":6,\\"endLine\\":12,\\"endColumn\\":38,\\"text\\":\\"[link](https://example.com/page)\\",\\"children\\":[{\\"type\\":\\"label\\",\\"startLine\\":12,\\"startColumn\\":6,\\"endLine\\":12,\\"endColumn\\":12,\\"text\\":\\"[link]\\",\\"children\\":[{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":6,\\"endLine\\":12,\\"endColumn\\":7,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.0]\\"},{\\"type\\":\\"labelText\\",\\"startLine\\":12,\\"startColumn\\":7,\\"endLine\\":12,\\"endColumn\\":11,\\"text\\":\\"link\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":7,\\"endLine\\":12,\\"endColumn\\":11,\\"text\\":\\"link\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.0]\\"},{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":11,\\"endLine\\":12,\\"endColumn\\":12,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.19]\\"},{\\"type\\":\\"resource\\",\\"startLine\\":12,\\"startColumn\\":12,\\"endLine\\":12,\\"endColumn\\":38,\\"text\\":\\"(https://example.com/page)\\",\\"children\\":[{\\"type\\":\\"resourceMarker\\",\\"startLine\\":12,\\"startColumn\\":12,\\"endLine\\":12,\\"endColumn\\":13,\\"text\\":\\"(\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.1]\\"},{\\"type\\":\\"resourceDestination\\",\\"startLine\\":12,\\"startColumn\\":13,\\"endLine\\":12,\\"endColumn\\":37,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"resourceDestinationRaw\\",\\"startLine\\":12,\\"startColumn\\":13,\\"endLine\\":12,\\"endColumn\\":37,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"resourceDestinationString\\",\\"startLine\\":12,\\"startColumn\\":13,\\"endLine\\":12,\\"endColumn\\":37,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":13,\\"endLine\\":12,\\"endColumn\\":37,\\"text\\":\\"https://example.com/page\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.1.children.1.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.1.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.1.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.1]\\"},{\\"type\\":\\"resourceMarker\\",\\"startLine\\":12,\\"startColumn\\":37,\\"endLine\\":12,\\"endColumn\\":38,\\"text\\":\\")\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.19.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.19]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":38,\\"endLine\\":12,\\"endColumn\\":39,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"link\\",\\"startLine\\":12,\\"startColumn\\":39,\\"endLine\\":12,\\"endColumn\\":47,\\"text\\":\\"[link][]\\",\\"children\\":[{\\"type\\":\\"label\\",\\"startLine\\":12,\\"startColumn\\":39,\\"endLine\\":12,\\"endColumn\\":45,\\"text\\":\\"[link]\\",\\"children\\":[{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":39,\\"endLine\\":12,\\"endColumn\\":40,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.21.children.0]\\"},{\\"type\\":\\"labelText\\",\\"startLine\\":12,\\"startColumn\\":40,\\"endLine\\":12,\\"endColumn\\":44,\\"text\\":\\"link\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":40,\\"endLine\\":12,\\"endColumn\\":44,\\"text\\":\\"link\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.21.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.21.children.0]\\"},{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":44,\\"endLine\\":12,\\"endColumn\\":45,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.21.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.21]\\"},{\\"type\\":\\"reference\\",\\"startLine\\":12,\\"startColumn\\":45,\\"endLine\\":12,\\"endColumn\\":47,\\"text\\":\\"[]\\",\\"children\\":[{\\"type\\":\\"referenceMarker\\",\\"startLine\\":12,\\"startColumn\\":45,\\"endLine\\":12,\\"endColumn\\":46,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.21.children.1]\\"},{\\"type\\":\\"referenceMarker\\",\\"startLine\\":12,\\"startColumn\\":46,\\"endLine\\":12,\\"endColumn\\":47,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.21.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.21]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":47,\\"endLine\\":12,\\"endColumn\\":48,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"link\\",\\"startLine\\":12,\\"startColumn\\":48,\\"endLine\\":12,\\"endColumn\\":54,\\"text\\":\\"[link]\\",\\"children\\":[{\\"type\\":\\"label\\",\\"startLine\\":12,\\"startColumn\\":48,\\"endLine\\":12,\\"endColumn\\":54,\\"text\\":\\"[link]\\",\\"children\\":[{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":48,\\"endLine\\":12,\\"endColumn\\":49,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.23.children.0]\\"},{\\"type\\":\\"labelText\\",\\"startLine\\":12,\\"startColumn\\":49,\\"endLine\\":12,\\"endColumn\\":53,\\"text\\":\\"link\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":49,\\"endLine\\":12,\\"endColumn\\":53,\\"text\\":\\"link\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.23.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.23.children.0]\\"},{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":53,\\"endLine\\":12,\\"endColumn\\":54,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.23.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.23]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":54,\\"endLine\\":12,\\"endColumn\\":55,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"image\\",\\"startLine\\":12,\\"startColumn\\":55,\\"endLine\\":12,\\"endColumn\\":69,\\"text\\":\\"![image][link]\\",\\"children\\":[{\\"type\\":\\"label\\",\\"startLine\\":12,\\"startColumn\\":55,\\"endLine\\":12,\\"endColumn\\":63,\\"text\\":\\"![image]\\",\\"children\\":[{\\"type\\":\\"labelImageMarker\\",\\"startLine\\":12,\\"startColumn\\":55,\\"endLine\\":12,\\"endColumn\\":56,\\"text\\":\\"!\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.0]\\"},{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":56,\\"endLine\\":12,\\"endColumn\\":57,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.0]\\"},{\\"type\\":\\"labelText\\",\\"startLine\\":12,\\"startColumn\\":57,\\"endLine\\":12,\\"endColumn\\":62,\\"text\\":\\"image\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":57,\\"endLine\\":12,\\"endColumn\\":62,\\"text\\":\\"image\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.0.children.2]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.0]\\"},{\\"type\\":\\"labelMarker\\",\\"startLine\\":12,\\"startColumn\\":62,\\"endLine\\":12,\\"endColumn\\":63,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.0]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.25]\\"},{\\"type\\":\\"reference\\",\\"startLine\\":12,\\"startColumn\\":63,\\"endLine\\":12,\\"endColumn\\":69,\\"text\\":\\"[link]\\",\\"children\\":[{\\"type\\":\\"referenceMarker\\",\\"startLine\\":12,\\"startColumn\\":63,\\"endLine\\":12,\\"endColumn\\":64,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.1]\\"},{\\"type\\":\\"referenceString\\",\\"startLine\\":12,\\"startColumn\\":64,\\"endLine\\":12,\\"endColumn\\":68,\\"text\\":\\"link\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":64,\\"endLine\\":12,\\"endColumn\\":68,\\"text\\":\\"link\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.1.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.1]\\"},{\\"type\\":\\"referenceMarker\\",\\"startLine\\":12,\\"startColumn\\":68,\\"endLine\\":12,\\"endColumn\\":69,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.25.children.1]\\"}],\\"parent\\":\\"[Circular ~.12.children.0.children.25]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":12,\\"startColumn\\":69,\\"endLine\\":12,\\"endColumn\\":70,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":12,\\"startColumn\\":70,\\"endLine\\":13,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":13,\\"startColumn\\":1,\\"endLine\\":13,\\"endColumn\\":6,\\"text\\":\\"Text \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"literalAutolink\\",\\"startLine\\":13,\\"startColumn\\":6,\\"endLine\\":13,\\"endColumn\\":30,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"literalAutolinkHttp\\",\\"startLine\\":13,\\"startColumn\\":6,\\"endLine\\":13,\\"endColumn\\":30,\\"text\\":\\"https://example.com/page\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0.children.29]\\"}],\\"parent\\":\\"[Circular ~.12.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":13,\\"startColumn\\":30,\\"endLine\\":13,\\"endColumn\\":31,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.12.children.0]\\"}],\\"parent\\":\\"[Circular ~.12]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":13,\\"startColumn\\":31,\\"endLine\\":14,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":14,\\"startColumn\\":1,\\"endLine\\":15,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"content\\",\\"startLine\\":15,\\"startColumn\\":1,\\"endLine\\":16,\\"endColumn\\":11,\\"text\\":\\"Hard  \\\\nline break\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":15,\\"startColumn\\":1,\\"endLine\\":16,\\"endColumn\\":11,\\"text\\":\\"Hard  \\\\nline break\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":15,\\"startColumn\\":1,\\"endLine\\":15,\\"endColumn\\":5,\\"text\\":\\"Hard\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.15.children.0]\\"},{\\"type\\":\\"hardBreakTrailing\\",\\"startLine\\":15,\\"startColumn\\":5,\\"endLine\\":15,\\"endColumn\\":7,\\"text\\":\\"  \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.15.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":15,\\"startColumn\\":7,\\"endLine\\":16,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.15.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":16,\\"startColumn\\":1,\\"endLine\\":16,\\"endColumn\\":11,\\"text\\":\\"line break\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.15.children.0]\\"}],\\"parent\\":\\"[Circular ~.15]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":16,\\"startColumn\\":11,\\"endLine\\":17,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":17,\\"startColumn\\":1,\\"endLine\\":18,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"content\\",\\"startLine\\":18,\\"startColumn\\":1,\\"endLine\\":18,\\"endColumn\\":41,\\"text\\":\\"[link]: https://example.com/page \\\\\\"Title\\\\\\"\\",\\"children\\":[{\\"type\\":\\"definition\\",\\"startLine\\":18,\\"startColumn\\":1,\\"endLine\\":18,\\"endColumn\\":41,\\"text\\":\\"[link]: https://example.com/page \\\\\\"Title\\\\\\"\\",\\"children\\":[{\\"type\\":\\"definitionLabel\\",\\"startLine\\":18,\\"startColumn\\":1,\\"endLine\\":18,\\"endColumn\\":7,\\"text\\":\\"[link]\\",\\"children\\":[{\\"type\\":\\"definitionLabelMarker\\",\\"startLine\\":18,\\"startColumn\\":1,\\"endLine\\":18,\\"endColumn\\":2,\\"text\\":\\"[\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.0]\\"},{\\"type\\":\\"definitionLabelString\\",\\"startLine\\":18,\\"startColumn\\":2,\\"endLine\\":18,\\"endColumn\\":6,\\"text\\":\\"link\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":18,\\"startColumn\\":2,\\"endLine\\":18,\\"endColumn\\":6,\\"text\\":\\"link\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.18.children.0.children.0]\\"},{\\"type\\":\\"definitionLabelMarker\\",\\"startLine\\":18,\\"startColumn\\":6,\\"endLine\\":18,\\"endColumn\\":7,\\"text\\":\\"]\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.18.children.0]\\"},{\\"type\\":\\"definitionMarker\\",\\"startLine\\":18,\\"startColumn\\":7,\\"endLine\\":18,\\"endColumn\\":8,\\"text\\":\\":\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0]\\"},{\\"type\\":\\"lineSuffix\\",\\"startLine\\":18,\\"startColumn\\":8,\\"endLine\\":18,\\"endColumn\\":9,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0]\\"},{\\"type\\":\\"definitionDestination\\",\\"startLine\\":18,\\"startColumn\\":9,\\"endLine\\":18,\\"endColumn\\":33,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"definitionDestinationRaw\\",\\"startLine\\":18,\\"startColumn\\":9,\\"endLine\\":18,\\"endColumn\\":33,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"definitionDestinationString\\",\\"startLine\\":18,\\"startColumn\\":9,\\"endLine\\":18,\\"endColumn\\":33,\\"text\\":\\"https://example.com/page\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":18,\\"startColumn\\":9,\\"endLine\\":18,\\"endColumn\\":33,\\"text\\":\\"https://example.com/page\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.3.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.18.children.0.children.3.children.0]\\"}],\\"parent\\":\\"[Circular ~.18.children.0.children.3]\\"}],\\"parent\\":\\"[Circular ~.18.children.0]\\"},{\\"type\\":\\"lineSuffix\\",\\"startLine\\":18,\\"startColumn\\":33,\\"endLine\\":18,\\"endColumn\\":34,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0]\\"},{\\"type\\":\\"definitionTitle\\",\\"startLine\\":18,\\"startColumn\\":34,\\"endLine\\":18,\\"endColumn\\":41,\\"text\\":\\"\\\\\\"Title\\\\\\"\\",\\"children\\":[{\\"type\\":\\"definitionTitleMarker\\",\\"startLine\\":18,\\"startColumn\\":34,\\"endLine\\":18,\\"endColumn\\":35,\\"text\\":\\"\\\\\\"\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.5]\\"},{\\"type\\":\\"definitionTitleString\\",\\"startLine\\":18,\\"startColumn\\":35,\\"endLine\\":18,\\"endColumn\\":40,\\"text\\":\\"Title\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":18,\\"startColumn\\":35,\\"endLine\\":18,\\"endColumn\\":40,\\"text\\":\\"Title\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.5.children.1]\\"}],\\"parent\\":\\"[Circular ~.18.children.0.children.5]\\"},{\\"type\\":\\"definitionTitleMarker\\",\\"startLine\\":18,\\"startColumn\\":40,\\"endLine\\":18,\\"endColumn\\":41,\\"text\\":\\"\\\\\\"\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.18.children.0.children.5]\\"}],\\"parent\\":\\"[Circular ~.18.children.0]\\"}],\\"parent\\":\\"[Circular ~.18]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":18,\\"startColumn\\":41,\\"endLine\\":19,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":19,\\"startColumn\\":1,\\"endLine\\":20,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"blockQuote\\",\\"startLine\\":20,\\"startColumn\\":1,\\"endLine\\":21,\\"endColumn\\":11,\\"text\\":\\"> Block quote\\\\n> > Nested\\",\\"children\\":[{\\"type\\":\\"blockQuotePrefix\\",\\"startLine\\":20,\\"startColumn\\":1,\\"endLine\\":20,\\"endColumn\\":3,\\"text\\":\\"> \\",\\"children\\":[{\\"type\\":\\"blockQuoteMarker\\",\\"startLine\\":20,\\"startColumn\\":1,\\"endLine\\":20,\\"endColumn\\":2,\\"text\\":\\">\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.0]\\"},{\\"type\\":\\"blockQuotePrefixWhitespace\\",\\"startLine\\":20,\\"startColumn\\":2,\\"endLine\\":20,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.0]\\"}],\\"parent\\":\\"[Circular ~.21]\\"},{\\"type\\":\\"content\\",\\"startLine\\":20,\\"startColumn\\":3,\\"endLine\\":20,\\"endColumn\\":14,\\"text\\":\\"Block quote\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":20,\\"startColumn\\":3,\\"endLine\\":20,\\"endColumn\\":14,\\"text\\":\\"Block quote\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":20,\\"startColumn\\":3,\\"endLine\\":20,\\"endColumn\\":14,\\"text\\":\\"Block quote\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.21.children.1]\\"}],\\"parent\\":\\"[Circular ~.21]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":20,\\"startColumn\\":14,\\"endLine\\":21,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21]\\"},{\\"type\\":\\"blockQuotePrefix\\",\\"startLine\\":21,\\"startColumn\\":1,\\"endLine\\":21,\\"endColumn\\":3,\\"text\\":\\"> \\",\\"children\\":[{\\"type\\":\\"blockQuoteMarker\\",\\"startLine\\":21,\\"startColumn\\":1,\\"endLine\\":21,\\"endColumn\\":2,\\"text\\":\\">\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.3]\\"},{\\"type\\":\\"blockQuotePrefixWhitespace\\",\\"startLine\\":21,\\"startColumn\\":2,\\"endLine\\":21,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.3]\\"}],\\"parent\\":\\"[Circular ~.21]\\"},{\\"type\\":\\"blockQuote\\",\\"startLine\\":21,\\"startColumn\\":3,\\"endLine\\":21,\\"endColumn\\":11,\\"text\\":\\"> Nested\\",\\"children\\":[{\\"type\\":\\"blockQuotePrefix\\",\\"startLine\\":21,\\"startColumn\\":3,\\"endLine\\":21,\\"endColumn\\":5,\\"text\\":\\"> \\",\\"children\\":[{\\"type\\":\\"blockQuoteMarker\\",\\"startLine\\":21,\\"startColumn\\":3,\\"endLine\\":21,\\"endColumn\\":4,\\"text\\":\\">\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.4.children.0]\\"},{\\"type\\":\\"blockQuotePrefixWhitespace\\",\\"startLine\\":21,\\"startColumn\\":4,\\"endLine\\":21,\\"endColumn\\":5,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.4.children.0]\\"}],\\"parent\\":\\"[Circular ~.21.children.4]\\"},{\\"type\\":\\"content\\",\\"startLine\\":21,\\"startColumn\\":5,\\"endLine\\":21,\\"endColumn\\":11,\\"text\\":\\"Nested\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":21,\\"startColumn\\":5,\\"endLine\\":21,\\"endColumn\\":11,\\"text\\":\\"Nested\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":21,\\"startColumn\\":5,\\"endLine\\":21,\\"endColumn\\":11,\\"text\\":\\"Nested\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.21.children.4.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.21.children.4.children.1]\\"}],\\"parent\\":\\"[Circular ~.21.children.4]\\"}],\\"parent\\":\\"[Circular ~.21]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":21,\\"startColumn\\":11,\\"endLine\\":22,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":22,\\"startColumn\\":1,\\"endLine\\":23,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"listUnordered\\",\\"startLine\\":23,\\"startColumn\\":1,\\"endLine\\":28,\\"endColumn\\":12,\\"text\\":\\"- Unordered\\\\n- List\\\\n  - Items\\\\n    Indented\\\\n\\\\n    Content\\",\\"children\\":[{\\"type\\":\\"listItemPrefix\\",\\"startLine\\":23,\\"startColumn\\":1,\\"endLine\\":23,\\"endColumn\\":3,\\"text\\":\\"- \\",\\"children\\":[{\\"type\\":\\"listItemMarker\\",\\"startLine\\":23,\\"startColumn\\":1,\\"endLine\\":23,\\"endColumn\\":2,\\"text\\":\\"-\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.0]\\"},{\\"type\\":\\"listItemPrefixWhitespace\\",\\"startLine\\":23,\\"startColumn\\":2,\\"endLine\\":23,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.0]\\"}],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"content\\",\\"startLine\\":23,\\"startColumn\\":3,\\"endLine\\":23,\\"endColumn\\":12,\\"text\\":\\"Unordered\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":23,\\"startColumn\\":3,\\"endLine\\":23,\\"endColumn\\":12,\\"text\\":\\"Unordered\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":23,\\"startColumn\\":3,\\"endLine\\":23,\\"endColumn\\":12,\\"text\\":\\"Unordered\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.24.children.1]\\"}],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":23,\\"startColumn\\":12,\\"endLine\\":24,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"listItemPrefix\\",\\"startLine\\":24,\\"startColumn\\":1,\\"endLine\\":24,\\"endColumn\\":3,\\"text\\":\\"- \\",\\"children\\":[{\\"type\\":\\"listItemMarker\\",\\"startLine\\":24,\\"startColumn\\":1,\\"endLine\\":24,\\"endColumn\\":2,\\"text\\":\\"-\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.3]\\"},{\\"type\\":\\"listItemPrefixWhitespace\\",\\"startLine\\":24,\\"startColumn\\":2,\\"endLine\\":24,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.3]\\"}],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"content\\",\\"startLine\\":24,\\"startColumn\\":3,\\"endLine\\":24,\\"endColumn\\":7,\\"text\\":\\"List\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":24,\\"startColumn\\":3,\\"endLine\\":24,\\"endColumn\\":7,\\"text\\":\\"List\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":24,\\"startColumn\\":3,\\"endLine\\":24,\\"endColumn\\":7,\\"text\\":\\"List\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.4.children.0]\\"}],\\"parent\\":\\"[Circular ~.24.children.4]\\"}],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":24,\\"startColumn\\":7,\\"endLine\\":25,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":25,\\"startColumn\\":1,\\"endLine\\":25,\\"endColumn\\":3,\\"text\\":\\"  \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24]\\"},{\\"type\\":\\"listUnordered\\",\\"startLine\\":25,\\"startColumn\\":3,\\"endLine\\":28,\\"endColumn\\":12,\\"text\\":\\"- Items\\\\n    Indented\\\\n\\\\n    Content\\",\\"children\\":[{\\"type\\":\\"listItemPrefix\\",\\"startLine\\":25,\\"startColumn\\":3,\\"endLine\\":25,\\"endColumn\\":5,\\"text\\":\\"- \\",\\"children\\":[{\\"type\\":\\"listItemMarker\\",\\"startLine\\":25,\\"startColumn\\":3,\\"endLine\\":25,\\"endColumn\\":4,\\"text\\":\\"-\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.0]\\"},{\\"type\\":\\"listItemPrefixWhitespace\\",\\"startLine\\":25,\\"startColumn\\":4,\\"endLine\\":25,\\"endColumn\\":5,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.0]\\"}],\\"parent\\":\\"[Circular ~.24.children.7]\\"},{\\"type\\":\\"content\\",\\"startLine\\":25,\\"startColumn\\":5,\\"endLine\\":26,\\"endColumn\\":13,\\"text\\":\\"Items\\\\n    Indented\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":25,\\"startColumn\\":5,\\"endLine\\":26,\\"endColumn\\":13,\\"text\\":\\"Items\\\\n    Indented\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":25,\\"startColumn\\":5,\\"endLine\\":25,\\"endColumn\\":10,\\"text\\":\\"Items\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.1.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":25,\\"startColumn\\":10,\\"endLine\\":26,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.1.children.0]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":26,\\"startColumn\\":1,\\"endLine\\":26,\\"endColumn\\":3,\\"text\\":\\"  \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.1.children.0]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":26,\\"startColumn\\":3,\\"endLine\\":26,\\"endColumn\\":5,\\"text\\":\\"  \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.1.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":26,\\"startColumn\\":5,\\"endLine\\":26,\\"endColumn\\":13,\\"text\\":\\"Indented\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.24.children.7.children.1]\\"}],\\"parent\\":\\"[Circular ~.24.children.7]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":26,\\"startColumn\\":13,\\"endLine\\":27,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7]\\"},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":27,\\"startColumn\\":1,\\"endLine\\":28,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":28,\\"startColumn\\":1,\\"endLine\\":28,\\"endColumn\\":3,\\"text\\":\\"  \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":28,\\"startColumn\\":3,\\"endLine\\":28,\\"endColumn\\":5,\\"text\\":\\"  \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7]\\"},{\\"type\\":\\"content\\",\\"startLine\\":28,\\"startColumn\\":5,\\"endLine\\":28,\\"endColumn\\":12,\\"text\\":\\"Content\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":28,\\"startColumn\\":5,\\"endLine\\":28,\\"endColumn\\":12,\\"text\\":\\"Content\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":28,\\"startColumn\\":5,\\"endLine\\":28,\\"endColumn\\":12,\\"text\\":\\"Content\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.24.children.7.children.6.children.0]\\"}],\\"parent\\":\\"[Circular ~.24.children.7.children.6]\\"}],\\"parent\\":\\"[Circular ~.24.children.7]\\"}],\\"parent\\":\\"[Circular ~.24]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":28,\\"startColumn\\":12,\\"endLine\\":29,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":29,\\"startColumn\\":1,\\"endLine\\":30,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"listOrdered\\",\\"startLine\\":30,\\"startColumn\\":1,\\"endLine\\":35,\\"endColumn\\":14,\\"text\\":\\"1. Ordered\\\\n2. List\\\\n   1. Items\\\\n      Indented\\\\n\\\\n      Content\\",\\"children\\":[{\\"type\\":\\"listItemPrefix\\",\\"startLine\\":30,\\"startColumn\\":1,\\"endLine\\":30,\\"endColumn\\":4,\\"text\\":\\"1. \\",\\"children\\":[{\\"type\\":\\"listItemValue\\",\\"startLine\\":30,\\"startColumn\\":1,\\"endLine\\":30,\\"endColumn\\":2,\\"text\\":\\"1\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.0]\\"},{\\"type\\":\\"listItemMarker\\",\\"startLine\\":30,\\"startColumn\\":2,\\"endLine\\":30,\\"endColumn\\":3,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.0]\\"},{\\"type\\":\\"listItemPrefixWhitespace\\",\\"startLine\\":30,\\"startColumn\\":3,\\"endLine\\":30,\\"endColumn\\":4,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.0]\\"}],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"content\\",\\"startLine\\":30,\\"startColumn\\":4,\\"endLine\\":30,\\"endColumn\\":11,\\"text\\":\\"Ordered\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":30,\\"startColumn\\":4,\\"endLine\\":30,\\"endColumn\\":11,\\"text\\":\\"Ordered\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":30,\\"startColumn\\":4,\\"endLine\\":30,\\"endColumn\\":11,\\"text\\":\\"Ordered\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.27.children.1]\\"}],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":30,\\"startColumn\\":11,\\"endLine\\":31,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"listItemPrefix\\",\\"startLine\\":31,\\"startColumn\\":1,\\"endLine\\":31,\\"endColumn\\":4,\\"text\\":\\"2. \\",\\"children\\":[{\\"type\\":\\"listItemValue\\",\\"startLine\\":31,\\"startColumn\\":1,\\"endLine\\":31,\\"endColumn\\":2,\\"text\\":\\"2\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.3]\\"},{\\"type\\":\\"listItemMarker\\",\\"startLine\\":31,\\"startColumn\\":2,\\"endLine\\":31,\\"endColumn\\":3,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.3]\\"},{\\"type\\":\\"listItemPrefixWhitespace\\",\\"startLine\\":31,\\"startColumn\\":3,\\"endLine\\":31,\\"endColumn\\":4,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.3]\\"}],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"content\\",\\"startLine\\":31,\\"startColumn\\":4,\\"endLine\\":31,\\"endColumn\\":8,\\"text\\":\\"List\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":31,\\"startColumn\\":4,\\"endLine\\":31,\\"endColumn\\":8,\\"text\\":\\"List\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":31,\\"startColumn\\":4,\\"endLine\\":31,\\"endColumn\\":8,\\"text\\":\\"List\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.4.children.0]\\"}],\\"parent\\":\\"[Circular ~.27.children.4]\\"}],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":31,\\"startColumn\\":8,\\"endLine\\":32,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":32,\\"startColumn\\":1,\\"endLine\\":32,\\"endColumn\\":4,\\"text\\":\\"   \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27]\\"},{\\"type\\":\\"listOrdered\\",\\"startLine\\":32,\\"startColumn\\":4,\\"endLine\\":35,\\"endColumn\\":14,\\"text\\":\\"1. Items\\\\n      Indented\\\\n\\\\n      Content\\",\\"children\\":[{\\"type\\":\\"listItemPrefix\\",\\"startLine\\":32,\\"startColumn\\":4,\\"endLine\\":32,\\"endColumn\\":7,\\"text\\":\\"1. \\",\\"children\\":[{\\"type\\":\\"listItemValue\\",\\"startLine\\":32,\\"startColumn\\":4,\\"endLine\\":32,\\"endColumn\\":5,\\"text\\":\\"1\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.0]\\"},{\\"type\\":\\"listItemMarker\\",\\"startLine\\":32,\\"startColumn\\":5,\\"endLine\\":32,\\"endColumn\\":6,\\"text\\":\\".\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.0]\\"},{\\"type\\":\\"listItemPrefixWhitespace\\",\\"startLine\\":32,\\"startColumn\\":6,\\"endLine\\":32,\\"endColumn\\":7,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.0]\\"}],\\"parent\\":\\"[Circular ~.27.children.7]\\"},{\\"type\\":\\"content\\",\\"startLine\\":32,\\"startColumn\\":7,\\"endLine\\":33,\\"endColumn\\":15,\\"text\\":\\"Items\\\\n      Indented\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":32,\\"startColumn\\":7,\\"endLine\\":33,\\"endColumn\\":15,\\"text\\":\\"Items\\\\n      Indented\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":32,\\"startColumn\\":7,\\"endLine\\":32,\\"endColumn\\":12,\\"text\\":\\"Items\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.1.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":32,\\"startColumn\\":12,\\"endLine\\":33,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.1.children.0]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":33,\\"startColumn\\":1,\\"endLine\\":33,\\"endColumn\\":4,\\"text\\":\\"   \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.1.children.0]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":33,\\"startColumn\\":4,\\"endLine\\":33,\\"endColumn\\":7,\\"text\\":\\"   \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.1.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":33,\\"startColumn\\":7,\\"endLine\\":33,\\"endColumn\\":15,\\"text\\":\\"Indented\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.1.children.0]\\"}],\\"parent\\":\\"[Circular ~.27.children.7.children.1]\\"}],\\"parent\\":\\"[Circular ~.27.children.7]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":33,\\"startColumn\\":15,\\"endLine\\":34,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7]\\"},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":34,\\"startColumn\\":1,\\"endLine\\":35,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":35,\\"startColumn\\":1,\\"endLine\\":35,\\"endColumn\\":4,\\"text\\":\\"   \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7]\\"},{\\"type\\":\\"listItemIndent\\",\\"startLine\\":35,\\"startColumn\\":4,\\"endLine\\":35,\\"endColumn\\":7,\\"text\\":\\"   \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7]\\"},{\\"type\\":\\"content\\",\\"startLine\\":35,\\"startColumn\\":7,\\"endLine\\":35,\\"endColumn\\":14,\\"text\\":\\"Content\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":35,\\"startColumn\\":7,\\"endLine\\":35,\\"endColumn\\":14,\\"text\\":\\"Content\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":35,\\"startColumn\\":7,\\"endLine\\":35,\\"endColumn\\":14,\\"text\\":\\"Content\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.27.children.7.children.6.children.0]\\"}],\\"parent\\":\\"[Circular ~.27.children.7.children.6]\\"}],\\"parent\\":\\"[Circular ~.27.children.7]\\"}],\\"parent\\":\\"[Circular ~.27]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":35,\\"startColumn\\":14,\\"endLine\\":36,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":36,\\"startColumn\\":1,\\"endLine\\":37,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"codeFenced\\",\\"startLine\\":37,\\"startColumn\\":1,\\"endLine\\":39,\\"endColumn\\":4,\\"text\\":\\"\`\`\`markdown options\\\\nFenced code block\\\\n\`\`\`\\",\\"children\\":[{\\"type\\":\\"codeFencedFence\\",\\"startLine\\":37,\\"startColumn\\":1,\\"endLine\\":37,\\"endColumn\\":20,\\"text\\":\\"\`\`\`markdown options\\",\\"children\\":[{\\"type\\":\\"codeFencedFenceSequence\\",\\"startLine\\":37,\\"startColumn\\":1,\\"endLine\\":37,\\"endColumn\\":4,\\"text\\":\\"\`\`\`\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30.children.0]\\"},{\\"type\\":\\"codeFencedFenceInfo\\",\\"startLine\\":37,\\"startColumn\\":4,\\"endLine\\":37,\\"endColumn\\":12,\\"text\\":\\"markdown\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":37,\\"startColumn\\":4,\\"endLine\\":37,\\"endColumn\\":12,\\"text\\":\\"markdown\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.30.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":37,\\"startColumn\\":12,\\"endLine\\":37,\\"endColumn\\":13,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30.children.0]\\"},{\\"type\\":\\"codeFencedFenceMeta\\",\\"startLine\\":37,\\"startColumn\\":13,\\"endLine\\":37,\\"endColumn\\":20,\\"text\\":\\"options\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":37,\\"startColumn\\":13,\\"endLine\\":37,\\"endColumn\\":20,\\"text\\":\\"options\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30.children.0.children.3]\\"}],\\"parent\\":\\"[Circular ~.30.children.0]\\"}],\\"parent\\":\\"[Circular ~.30]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":37,\\"startColumn\\":20,\\"endLine\\":38,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30]\\"},{\\"type\\":\\"codeFlowValue\\",\\"startLine\\":38,\\"startColumn\\":1,\\"endLine\\":38,\\"endColumn\\":18,\\"text\\":\\"Fenced code block\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":38,\\"startColumn\\":18,\\"endLine\\":39,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30]\\"},{\\"type\\":\\"codeFencedFence\\",\\"startLine\\":39,\\"startColumn\\":1,\\"endLine\\":39,\\"endColumn\\":4,\\"text\\":\\"\`\`\`\\",\\"children\\":[{\\"type\\":\\"codeFencedFenceSequence\\",\\"startLine\\":39,\\"startColumn\\":1,\\"endLine\\":39,\\"endColumn\\":4,\\"text\\":\\"\`\`\`\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.30.children.4]\\"}],\\"parent\\":\\"[Circular ~.30]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":39,\\"startColumn\\":4,\\"endLine\\":40,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":40,\\"startColumn\\":1,\\"endLine\\":41,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"codeIndented\\",\\"startLine\\":41,\\"startColumn\\":1,\\"endLine\\":41,\\"endColumn\\":24,\\"text\\":\\"    Indented code block\\",\\"children\\":[{\\"type\\":\\"linePrefix\\",\\"startLine\\":41,\\"startColumn\\":1,\\"endLine\\":41,\\"endColumn\\":5,\\"text\\":\\"    \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.33]\\"},{\\"type\\":\\"codeFlowValue\\",\\"startLine\\":41,\\"startColumn\\":5,\\"endLine\\":41,\\"endColumn\\":24,\\"text\\":\\"Indented code block\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.33]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":41,\\"startColumn\\":24,\\"endLine\\":42,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":42,\\"startColumn\\":1,\\"endLine\\":43,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"htmlFlow\\",\\"startLine\\":43,\\"startColumn\\":1,\\"endLine\\":45,\\"endColumn\\":5,\\"text\\":\\"<p>\\\\nHTML block\\\\n</p>\\",\\"children\\":[{\\"type\\":\\"content\\",\\"startLine\\":43,\\"startColumn\\":1,\\"endLine\\":45,\\"endColumn\\":5,\\"text\\":\\"<p>\\\\nHTML block\\\\n</p>\\",\\"children\\":[{\\"type\\":\\"paragraph\\",\\"startLine\\":43,\\"startColumn\\":1,\\"endLine\\":45,\\"endColumn\\":5,\\"text\\":\\"<p>\\\\nHTML block\\\\n</p>\\",\\"children\\":[{\\"type\\":\\"htmlText\\",\\"startLine\\":43,\\"startColumn\\":1,\\"endLine\\":43,\\"endColumn\\":4,\\"text\\":\\"<p>\\",\\"children\\":[{\\"type\\":\\"htmlTextData\\",\\"startLine\\":43,\\"startColumn\\":1,\\"endLine\\":43,\\"endColumn\\":4,\\"text\\":\\"<p>\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.36.children.0.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.36.children.0.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":43,\\"startColumn\\":4,\\"endLine\\":44,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.36.children.0.children.0]\\"},{\\"type\\":\\"data\\",\\"startLine\\":44,\\"startColumn\\":1,\\"endLine\\":44,\\"endColumn\\":11,\\"text\\":\\"HTML block\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.36.children.0.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":44,\\"startColumn\\":11,\\"endLine\\":45,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.36.children.0.children.0]\\"},{\\"type\\":\\"htmlText\\",\\"startLine\\":45,\\"startColumn\\":1,\\"endLine\\":45,\\"endColumn\\":5,\\"text\\":\\"</p>\\",\\"children\\":[{\\"type\\":\\"htmlTextData\\",\\"startLine\\":45,\\"startColumn\\":1,\\"endLine\\":45,\\"endColumn\\":5,\\"text\\":\\"</p>\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.36.children.0.children.0.children.4]\\"}],\\"parent\\":\\"[Circular ~.36.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.36.children.0]\\"}],\\"parent\\":\\"[Circular ~.36]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":45,\\"startColumn\\":5,\\"endLine\\":46,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":46,\\"startColumn\\":1,\\"endLine\\":47,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"table\\",\\"startLine\\":47,\\"startColumn\\":1,\\"endLine\\":49,\\"endColumn\\":20,\\"text\\":\\"| Table | Heading |\\\\n| ----- | ------- |\\\\n| Table | Cell    |\\",\\"children\\":[{\\"type\\":\\"tableHead\\",\\"startLine\\":47,\\"startColumn\\":1,\\"endLine\\":48,\\"endColumn\\":20,\\"text\\":\\"| Table | Heading |\\\\n| ----- | ------- |\\",\\"children\\":[{\\"type\\":\\"tableRow\\",\\"startLine\\":47,\\"startColumn\\":1,\\"endLine\\":47,\\"endColumn\\":20,\\"text\\":\\"| Table | Heading |\\",\\"children\\":[{\\"type\\":\\"tableHeader\\",\\"startLine\\":47,\\"startColumn\\":1,\\"endLine\\":47,\\"endColumn\\":9,\\"text\\":\\"| Table \\",\\"children\\":[{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":47,\\"startColumn\\":1,\\"endLine\\":47,\\"endColumn\\":2,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":47,\\"startColumn\\":2,\\"endLine\\":47,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.0]\\"},{\\"type\\":\\"tableContent\\",\\"startLine\\":47,\\"startColumn\\":3,\\"endLine\\":47,\\"endColumn\\":8,\\"text\\":\\"Table\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":47,\\"startColumn\\":3,\\"endLine\\":47,\\"endColumn\\":8,\\"text\\":\\"Table\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.0.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":47,\\"startColumn\\":8,\\"endLine\\":47,\\"endColumn\\":9,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.0]\\"},{\\"type\\":\\"tableHeader\\",\\"startLine\\":47,\\"startColumn\\":9,\\"endLine\\":47,\\"endColumn\\":20,\\"text\\":\\"| Heading |\\",\\"children\\":[{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":47,\\"startColumn\\":9,\\"endLine\\":47,\\"endColumn\\":10,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.1]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":47,\\"startColumn\\":10,\\"endLine\\":47,\\"endColumn\\":11,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.1]\\"},{\\"type\\":\\"tableContent\\",\\"startLine\\":47,\\"startColumn\\":11,\\"endLine\\":47,\\"endColumn\\":18,\\"text\\":\\"Heading\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":47,\\"startColumn\\":11,\\"endLine\\":47,\\"endColumn\\":18,\\"text\\":\\"Heading\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.1.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.1]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":47,\\"startColumn\\":18,\\"endLine\\":47,\\"endColumn\\":19,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.1]\\"},{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":47,\\"startColumn\\":19,\\"endLine\\":47,\\"endColumn\\":20,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.39.children.0]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":47,\\"startColumn\\":20,\\"endLine\\":48,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0]\\"},{\\"type\\":\\"tableDelimiterRow\\",\\"startLine\\":48,\\"startColumn\\":1,\\"endLine\\":48,\\"endColumn\\":20,\\"text\\":\\"| ----- | ------- |\\",\\"children\\":[{\\"type\\":\\"tableDelimiter\\",\\"startLine\\":48,\\"startColumn\\":1,\\"endLine\\":48,\\"endColumn\\":9,\\"text\\":\\"| ----- \\",\\"children\\":[{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":48,\\"startColumn\\":1,\\"endLine\\":48,\\"endColumn\\":2,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":48,\\"startColumn\\":2,\\"endLine\\":48,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.0]\\"},{\\"type\\":\\"tableContent\\",\\"startLine\\":48,\\"startColumn\\":3,\\"endLine\\":48,\\"endColumn\\":8,\\"text\\":\\"-----\\",\\"children\\":[{\\"type\\":\\"tableDelimiterFiller\\",\\"startLine\\":48,\\"startColumn\\":3,\\"endLine\\":48,\\"endColumn\\":8,\\"text\\":\\"-----\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.0.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":48,\\"startColumn\\":8,\\"endLine\\":48,\\"endColumn\\":9,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.0]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.2]\\"},{\\"type\\":\\"tableDelimiter\\",\\"startLine\\":48,\\"startColumn\\":9,\\"endLine\\":48,\\"endColumn\\":20,\\"text\\":\\"| ------- |\\",\\"children\\":[{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":48,\\"startColumn\\":9,\\"endLine\\":48,\\"endColumn\\":10,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.1]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":48,\\"startColumn\\":10,\\"endLine\\":48,\\"endColumn\\":11,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.1]\\"},{\\"type\\":\\"tableContent\\",\\"startLine\\":48,\\"startColumn\\":11,\\"endLine\\":48,\\"endColumn\\":18,\\"text\\":\\"-------\\",\\"children\\":[{\\"type\\":\\"tableDelimiterFiller\\",\\"startLine\\":48,\\"startColumn\\":11,\\"endLine\\":48,\\"endColumn\\":18,\\"text\\":\\"-------\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.1.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.1]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":48,\\"startColumn\\":18,\\"endLine\\":48,\\"endColumn\\":19,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.1]\\"},{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":48,\\"startColumn\\":19,\\"endLine\\":48,\\"endColumn\\":20,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.0.children.2.children.1]\\"}],\\"parent\\":\\"[Circular ~.39.children.0.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.0]\\"}],\\"parent\\":\\"[Circular ~.39]\\"},{\\"type\\":\\"lineEnding\\",\\"startLine\\":48,\\"startColumn\\":20,\\"endLine\\":49,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39]\\"},{\\"type\\":\\"tableBody\\",\\"startLine\\":49,\\"startColumn\\":1,\\"endLine\\":49,\\"endColumn\\":20,\\"text\\":\\"| Table | Cell    |\\",\\"children\\":[{\\"type\\":\\"tableRow\\",\\"startLine\\":49,\\"startColumn\\":1,\\"endLine\\":49,\\"endColumn\\":20,\\"text\\":\\"| Table | Cell    |\\",\\"children\\":[{\\"type\\":\\"tableData\\",\\"startLine\\":49,\\"startColumn\\":1,\\"endLine\\":49,\\"endColumn\\":9,\\"text\\":\\"| Table \\",\\"children\\":[{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":49,\\"startColumn\\":1,\\"endLine\\":49,\\"endColumn\\":2,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":49,\\"startColumn\\":2,\\"endLine\\":49,\\"endColumn\\":3,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.0]\\"},{\\"type\\":\\"tableContent\\",\\"startLine\\":49,\\"startColumn\\":3,\\"endLine\\":49,\\"endColumn\\":8,\\"text\\":\\"Table\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":49,\\"startColumn\\":3,\\"endLine\\":49,\\"endColumn\\":8,\\"text\\":\\"Table\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.0.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.0]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":49,\\"startColumn\\":8,\\"endLine\\":49,\\"endColumn\\":9,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.0]\\"}],\\"parent\\":\\"[Circular ~.39.children.2.children.0]\\"},{\\"type\\":\\"tableData\\",\\"startLine\\":49,\\"startColumn\\":9,\\"endLine\\":49,\\"endColumn\\":20,\\"text\\":\\"| Cell    |\\",\\"children\\":[{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":49,\\"startColumn\\":9,\\"endLine\\":49,\\"endColumn\\":10,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.1]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":49,\\"startColumn\\":10,\\"endLine\\":49,\\"endColumn\\":11,\\"text\\":\\" \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.1]\\"},{\\"type\\":\\"tableContent\\",\\"startLine\\":49,\\"startColumn\\":11,\\"endLine\\":49,\\"endColumn\\":15,\\"text\\":\\"Cell\\",\\"children\\":[{\\"type\\":\\"data\\",\\"startLine\\":49,\\"startColumn\\":11,\\"endLine\\":49,\\"endColumn\\":15,\\"text\\":\\"Cell\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.1.children.2]\\"}],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.1]\\"},{\\"type\\":\\"whitespace\\",\\"startLine\\":49,\\"startColumn\\":15,\\"endLine\\":49,\\"endColumn\\":19,\\"text\\":\\"    \\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.1]\\"},{\\"type\\":\\"tableCellDivider\\",\\"startLine\\":49,\\"startColumn\\":19,\\"endLine\\":49,\\"endColumn\\":20,\\"text\\":\\"|\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.39.children.2.children.0.children.1]\\"}],\\"parent\\":\\"[Circular ~.39.children.2.children.0]\\"}],\\"parent\\":\\"[Circular ~.39.children.2]\\"}],\\"parent\\":\\"[Circular ~.39]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":49,\\"startColumn\\":20,\\"endLine\\":50,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"lineEndingBlank\\",\\"startLine\\":50,\\"startColumn\\":1,\\"endLine\\":51,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null},{\\"type\\":\\"htmlFlow\\",\\"startLine\\":51,\\"startColumn\\":1,\\"endLine\\":51,\\"endColumn\\":35,\\"text\\":\\"<!-- markdownlint-disable-file -->\\",\\"children\\":[{\\"type\\":\\"htmlFlowData\\",\\"startLine\\":51,\\"startColumn\\":1,\\"endLine\\":51,\\"endColumn\\":35,\\"text\\":\\"<!-- markdownlint-disable-file -->\\",\\"children\\":[],\\"parent\\":\\"[Circular ~.42]\\"}],\\"parent\\":null},{\\"type\\":\\"lineEnding\\",\\"startLine\\":51,\\"startColumn\\":35,\\"endLine\\":52,\\"endColumn\\":1,\\"text\\":\\"\\\\n\\",\\"children\\":[],\\"parent\\":null}]"
+`;
+
+exports[`markdownlint-test-custom-rules.mjs > customRulesValidateFrontMatter 1`] = `
+[
+  [
+    "test/front-matter-title-pandoc-spaces.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "validate-front-matter"
+        ],
+        "ruleDescription": "Rule that verifies front matter is YAML",
+        "ruleInformation": null,
+        "errorDetail": "end of the stream or a document separator is expected",
+        "errorContext": null,
+        "errorRange": [
+          6,
+          1
+        ],
+        "fixInfo": null,
+        "severity": "error"
+      }
+    ]
+  ],
+  [
+    "test/front-matter-title-pandoc.md",
+    [
+      {
+        "lineNumber": 2,
+        "ruleNames": [
+          "validate-front-matter"
+        ],
+        "ruleDescription": "Rule that verifies front matter is YAML",
+        "ruleInformation": null,
+        "errorDetail": "end of the stream or a document separator is expected",
+        "errorContext": null,
+        "errorRange": [
+          6,
+          1
+        ],
+        "fixInfo": null,
+        "severity": "error"
+      }
+    ]
+  ]
+]
 `;

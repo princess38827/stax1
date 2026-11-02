@@ -131,10 +131,9 @@ function filterByTypes(tokens, types, htmlFlow) {
   const flatTokens =
     // @ts-ignore
     tokens[flatTokensSymbol];
-  if (flatTokens) {
-    return flatTokens.filter(predicate);
-  }
-  return filterByPredicate(tokens, predicate);
+  return flatTokens ?
+    flatTokens.filter(predicate) :
+    filterByPredicate(tokens, predicate);
 }
 
 /**
@@ -205,10 +204,7 @@ function getHeadingStyle(heading) {
   const atxHeadingSequenceLength = heading.children.filter(
     (child) => child.type === "atxHeadingSequence"
   ).length;
-  if (atxHeadingSequenceLength === 1) {
-    return "atx";
-  }
-  return "atx_closed";
+  return (atxHeadingSequenceLength === 1) ? "atx" : "atx_closed";
 }
 
 /**
@@ -222,7 +218,8 @@ function getHeadingText(heading) {
     .flatMap((descendant) => descendant.children.filter((child) => child.type !== "htmlText"))
     .map((data) => data.text)
     .join("")
-    .replace(newlineRe, " ");
+    .replace(newlineRe, " ")
+    .trim();
 }
 
 /**

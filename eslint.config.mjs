@@ -1,38 +1,48 @@
+// @ts-check
+
+import { defineConfig } from "eslint/config";
 import js from "@eslint/js";
 import eslintNodeTest from "eslint-node-test";
+import eslintPackageJson from "eslint-package-json";
 import eslintPluginJsdoc from "eslint-plugin-jsdoc";
-import eslintPluginNode from "eslint-plugin-n";
+import eslintPluginN from "eslint-plugin-n";
+import eslintPluginRedos from "eslint-plugin-redos";
 import eslintPluginRegexp from "eslint-plugin-regexp";
 import eslintPluginStylistic from "@stylistic/eslint-plugin";
 import eslintPluginUnicorn from "eslint-plugin-unicorn";
 
-export default [
-  js.configs.all,
-  eslintNodeTest.configs.all,
-  eslintPluginJsdoc.configs["flat/recommended"],
-  eslintPluginNode.configs["flat/recommended"],
-  eslintPluginRegexp.configs["flat/recommended"],
-  eslintPluginStylistic.configs.customize({
-    "arrowParens": true,
-    "braceStyle": "1tbs",
-    "commaDangle": "never",
-    "jsx": false,
-    "quoteProps": "always",
-    "quotes": "double",
-    "semi": true
-  }),
-  eslintPluginUnicorn.configs["flat/all"],
+// eslint-disable-next-line unicorn/no-top-level-side-effects
+export default defineConfig(
   {
     "ignores": [
-      "demo/markdown-it.min.js",
-      "demo/markdownlint-browser.js",
-      "demo/markdownlint-browser.min.js",
-      "example/typescript/type-check-*",
-      "test/resolve-module-webpack.cjs",
-      "test-repos/**"
-    ]
-  },
-  {
+      "**/package.json"
+    ],
+    "plugins": {
+      js,
+      "jsdoc": eslintPluginJsdoc,
+      "n": eslintPluginN,
+      "node-test": eslintNodeTest,
+      "regexp": eslintPluginRegexp,
+      "unicorn": eslintPluginUnicorn,
+      "@stylistic": eslintPluginStylistic
+    },
+    "extends": [
+      "js/all",
+      "jsdoc/recommended",
+      "n/all",
+      "node-test/all",
+      "regexp/recommended",
+      "unicorn/all",
+      eslintPluginStylistic.configs.customize({
+        "arrowParens": true,
+        "braceStyle": "1tbs",
+        "commaDangle": "never",
+        "jsx": false,
+        "quoteProps": "always",
+        "quotes": "double",
+        "semi": true
+      })
+    ],
     "linterOptions": {
       "reportUnusedDisableDirectives": true
     },
@@ -65,6 +75,7 @@ export default [
       "no-undef-init": "off",
       "no-undefined": "off",
       "no-useless-assignment": "off",
+      "n/no-sync": "off",
       "node-test/consistent-assert-throws-callback-style": "off",
       "node-test/consistent-test-filename": "off",
       "node-test/consistent-test-it": "off",
@@ -88,13 +99,16 @@ export default [
       "sort-imports": "off",
       "sort-keys": "off",
       "unicorn/better-regex": "off",
+      "unicorn/consistent-arrow-return-style": "off",
       "unicorn/consistent-boolean-name": "off",
       "unicorn/consistent-function-scoping": "off",
       "unicorn/filename-case": "off",
+      "unicorn/iteration-fallback-style": [ "error", "fallback" ],
       "unicorn/max-nested-calls": "off",
       "unicorn/name-replacements": "off",
       "unicorn/no-array-callback-reference": "off",
       "unicorn/no-asterisk-prefix-in-documentation-comments": "off",
+      "unicorn/no-barrel-files": "off",
       "unicorn/no-break-in-nested-loop": "off",
       "unicorn/no-duplicate-loops": "off",
       "unicorn/no-array-front-mutation": "off",
@@ -120,6 +134,7 @@ export default [
       "unicorn/prefer-switch": "off",
       "unicorn/prefer-temporal": "off",
       "unicorn/prevent-abbreviations": "off",
+      "unicorn/single-line-block-comment-style": [ "error", "multiline", { "ignore": [ /^@type(?:def)? /u, /^node:coverage /u ] } ],
       "unicorn/switch-case-braces": [ "error", "avoid" ],
       "unicorn/try-complexity": "off",
       "vars-on-top": "off"
@@ -131,6 +146,16 @@ export default [
         }
       }
     }
+  },
+  {
+    "ignores": [
+      "demo/markdown-it.umd.min.js",
+      "demo/markdownlint-browser.js",
+      "demo/markdownlint-browser.min.js",
+      "example/typescript/type-check-*",
+      "test/resolve-module-webpack.cjs",
+      "test-repos/**"
+    ]
   },
   {
     "files": [
@@ -213,5 +238,50 @@ export default [
     "rules": {
       "unicorn/prefer-module": "off"
     }
+  },
+  {
+    "files": [
+      "helpers/**/*.*js",
+      "lib/**/*.*js"
+    ],
+    "plugins": {
+      // @ts-ignore
+      "redos": eslintPluginRedos
+    },
+    "rules": {
+      "redos/no-vulnerable": [ "error", { "timeout": 120_000 } ]
+    }
+  },
+  {
+    "files": [
+      "**/package.json"
+    ],
+    "plugins": {
+      "package-json": eslintPackageJson
+    },
+    "extends": [
+      "package-json/all"
+    ],
+    "rules": {
+      "package-json/dependency-version-range": [ "error", { "range": "exact" } ],
+      "package-json/no-nested-exports": "off",
+      "package-json/prefer-exports": "off",
+      "package-json/prefer-files-field": "off",
+      "package-json/prefer-side-effects-field": "off",
+      "package-json/prefer-type-module": "off",
+      "package-json/require-private": "off",
+      "package-json/require-types-in-exports": "off",
+      "package-json/sort-dependencies": "off",
+      "package-json/sort-properties": "off",
+      "package-json/sort-scripts": "off"
+    }
+  },
+  {
+    "files": [
+      "test/**/package.json"
+    ],
+    "rules": {
+      "package-json/require-engines": "off"
+    }
   }
-];
+);

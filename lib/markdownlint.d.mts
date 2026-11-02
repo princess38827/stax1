@@ -297,6 +297,10 @@ export type MicromarkToken = {
 export type RuleOnError = (onErrorInfo: RuleOnErrorInfo) => void;
 export type RuleOnErrorInfo = {
     /**
+     * True if applies to front matter.
+     */
+    frontMatter?: boolean;
+    /**
      * Line number (1-based).
      */
     lineNumber: number;
@@ -370,12 +374,7 @@ export type Rule = {
     function: RuleFunction;
 };
 export type MarkdownItParse = (src: string, env: Object) => MarkdownItBaseToken[];
-export type MarkdownIt = {
-    /**
-     * Method to parse input.
-     */
-    parse: MarkdownItParse;
-};
+export type MarkdownIt = import("markdown-it").MarkdownIt;
 export type MarkdownItFactory = () => MarkdownIt | Promise<MarkdownIt>;
 export type Options = {
     /**
@@ -599,6 +598,7 @@ export type RuleConfiguration = boolean | any;
  * Fix information for RuleOnError callback.
  *
  * @typedef {Object} RuleOnErrorInfo
+ * @property {boolean} [frontMatter] True if applies to front matter.
  * @property {number} lineNumber Line number (1-based).
  * @property {string} [detail] Detail about the error.
  * @property {string} [context] Context for the error.
@@ -635,12 +635,7 @@ export type RuleConfiguration = boolean | any;
  * @param {Object} env Environment sandbox.
  * @returns {MarkdownItBaseToken[]} Tokens.
  */
-/**
- * Instance of the markdown-it parser.
- *
- * @typedef MarkdownIt
- * @property {MarkdownItParse} parse Method to parse input.
- */
+/** @typedef {import("markdown-it").MarkdownIt} MarkdownIt */
 /**
  * Gets an instance of the markdown-it parser. Any plugins should already have been loaded.
  *
